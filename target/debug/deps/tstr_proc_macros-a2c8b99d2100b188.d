@@ -1,0 +1,9 @@
+F:\Downloads\cs2offsets\target\debug\deps\tstr_proc_macros-a2c8b99d2100b188.d: C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\lib.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\non_syn_parsing.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\nested_tuple_compute.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\utils.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\no_const_generics.rs
+
+F:\Downloads\cs2offsets\target\debug\deps\tstr_proc_macros-a2c8b99d2100b188.dll: C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\lib.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\non_syn_parsing.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\nested_tuple_compute.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\utils.rs C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\no_const_generics.rs
+
+C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\lib.rs:
+C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\non_syn_parsing.rs:
+C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\nested_tuple_compute.rs:
+C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\utils.rs:
+C:\Users\javae\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tstr_proc_macros-0.2.2\src\no_const_generics.rs:
