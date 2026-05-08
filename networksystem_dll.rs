@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-04-18 13:02:28.525285900 UTC
+// 2026-05-08 18:57:46.274931400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -7,21 +7,11 @@ pub mod cs2_dumper {
     pub mod schemas {
         // Module: networksystem.dll
         // Class count: 1
-        // Enum count: 1
+        // Enum count: 0
         pub mod networksystem_dll {
-            // Alignment: 4
-            // Member count: 4
-            #[repr(u32)]
-            pub enum OutOfPVSUpdates_t {
-                OOPVSUpdates_OptOut = 0x0,
-                OOPVSUpdates_OptIn = 0x1,
-                OOPVSUpdates_Default = 0x2,
-                OOPVSUpdates_Count = 0x3
-            }
             // Parent: None
-            // Field count: 1
+            // Field count: 0
             pub mod ChangeAccessorFieldPathIndex_t {
-                pub const m_Value: usize = 0x0; // int32
             }
         }
     }
