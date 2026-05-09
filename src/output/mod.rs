@@ -46,6 +46,7 @@ trait CodeWriter {
     fn write_json(&self, fmt: &mut Formatter<'_>) -> fmt::Result;
     fn write_rs(&self, fmt: &mut Formatter<'_>) -> fmt::Result;
     fn write_zig(&self, fmt: &mut Formatter<'_>) -> fmt::Result;
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result;
 }
 
 impl<'a> CodeWriter for Item<'a> {
@@ -91,6 +92,15 @@ impl<'a> CodeWriter for Item<'a> {
             Item::Interfaces(ifaces) => ifaces.write_zig(fmt),
             Item::Offsets(offsets) => offsets.write_zig(fmt),
             Item::Schemas(schemas) => schemas.write_zig(fmt),
+        }
+    }
+
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        match self {
+            Item::Buttons(buttons) => buttons.write_h(fmt),
+            Item::Interfaces(ifaces) => ifaces.write_h(fmt),
+            Item::Offsets(offsets) => offsets.write_h(fmt),
+            Item::Schemas(schemas) => schemas.write_h(fmt),
         }
     }
 }

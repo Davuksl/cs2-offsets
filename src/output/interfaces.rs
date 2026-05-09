@@ -63,6 +63,33 @@ impl CodeWriter for InterfaceMap {
             })
         })
     }
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        writeln!(fmt, "#pragma once\n")?;
+        writeln!(fmt, "#include <stddef.h>")?;
+        writeln!(fmt, "#include <stdint.h>\n")?;
+
+        fmt.block("namespace cs2_dumper", false, |fmt| {
+            fmt.block("namespace interfaces", false, |fmt| {
+                for (module_name, ifaces) in self {
+                    writeln!(fmt, "// Module: {}", module_name)?;
+
+                    fmt.block(
+                        &format!("namespace {}", AsSnakeCase(slugify(module_name))),
+                        false,
+                        |fmt| {
+                            for (name, value) in ifaces {
+                                writeln!(fmt, "static const size_t {} = {:#X};", name, value)?;
+                            }
+
+                            Ok(())
+                        },
+                    )?;
+                }
+
+                Ok(())
+            })
+        })
+    }
 
     fn write_json(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
         let content: BTreeMap<_, _> = self

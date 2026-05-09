@@ -495,6 +495,107 @@ impl CodeWriter for SchemaMap {
             })
         })
     }
+
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        writeln!(fmt, "#pragma once\n")?;
+        writeln!(fmt, "#include <cstddef>")?;
+        writeln!(fmt, "#include <cstdint>\n")?;
+
+        fmt.block("namespace cs2_dumper", false, |fmt| {
+            fmt.block("namespace schemas", false, |fmt| {
+                for (module_name, (classes, enums)) in self {
+                    writeln!(fmt, "// Module: {}", module_name)?;
+                    writeln!(fmt, "// Class count: {}", classes.len())?;
+                    writeln!(fmt, "// Enum count: {}", enums.len())?;
+
+                    fmt.block(
+                        &format!("namespace {}", AsSnakeCase(slugify(module_name))),
+                        false,
+                        |fmt| {
+                            for enum_ in enums {
+                                let type_name = match enum_.alignment {
+                                    1 => "uint8_t",
+                                    2 => "uint16_t",
+                                    4 => "uint32_t",
+                                    8 => "uint64_t",
+                                    _ => continue,
+                                };
+
+                                writeln!(fmt, "// Alignment: {}", enum_.alignment)?;
+                                writeln!(fmt, "// Member count: {}", enum_.size)?;
+
+                                fmt.block(
+                                    &format!("enum class {} : {}", slugify(&enum_.name), type_name),
+                                    true,
+                                    |fmt| {
+                                        let members = enum_
+                                            .members
+                                            .iter()
+                                            .map(|member| {
+                                                let formatted_value = if (0..=i32::MAX as i64)
+                                                    .contains(&member.value)
+                                                {
+                                                    format!("{:#X}", member.value)
+                                                } else {
+                                                    let max_value = match type_name {
+                                                        "uint8_t" => 0xFFu64,
+                                                        "uint16_t" => 0xFFFFu64,
+                                                        "uint32_t" => 0xFFFFFFFFu64,
+                                                        "uint64_t" => 0xFFFFFFFFFFFFFFFFu64,
+                                                        _ => 0,
+                                                    };
+
+                                                    format!("{:#X}", max_value)
+                                                };
+
+                                                format!("{} = {}", member.name, formatted_value)
+                                            })
+                                            .collect::<Vec<_>>()
+                                            .join(",\n");
+
+                                        writeln!(fmt, "{}", members)
+                                    },
+                                )?;
+                            }
+
+                            for class in classes {
+                                let parent_name = class
+                                    .parent_name
+                                    .as_deref()
+                                    .map(slugify)
+                                    .unwrap_or("None".to_string());
+
+                                writeln!(fmt, "// Parent: {}", parent_name)?;
+                                writeln!(fmt, "// Field count: {}", class.fields.len())?;
+
+                                write_metadata(fmt, &class.metadata)?;
+
+                                fmt.block(
+                                    &format!("namespace {}", slugify(&class.name)),
+                                    false,
+                                    |fmt| {
+                                        for field in &class.fields {
+                                            writeln!(
+                                                fmt,
+                                                "constexpr std::ptrdiff_t {} = {:#X}; // {}",
+                                                field.name, field.offset, field.type_name
+                                            )?;
+                                        }
+
+                                        Ok(())
+                                    },
+                                )?;
+                            }
+
+                            Ok(())
+                        },
+                    )?;
+                }
+
+                Ok(())
+            })
+        })
+    }
 }
 
 fn write_metadata(fmt: &mut Formatter<'_>, metadata: &[ClassMetadata]) -> fmt::Result {

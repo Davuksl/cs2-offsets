@@ -81,4 +81,20 @@ impl CodeWriter for ButtonMap {
             })
         })
     }
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        writeln!(fmt, "#pragma once\n")?;
+        writeln!(fmt, "#include <stddef.h>")?;
+
+        fmt.block("namespace cs2_dumper", false, |fmt| {
+            writeln!(fmt, "// Module: client.dll")?;
+
+            fmt.block("namespace buttons", false, |fmt| {
+                for (name, value) in self {
+                    writeln!(fmt, "const size_t {} = {:#X};", name, value)?;
+                }
+
+                Ok(())
+            })
+        })
+    }
 }

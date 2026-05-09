@@ -54,6 +54,33 @@ impl CodeWriter for OffsetMap {
             })
         })
     }
+    fn write_h(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
+        writeln!(fmt, "#pragma once\n")?;
+        writeln!(fmt, "#include <cstddef>")?;
+        writeln!(fmt, "#include <cstdint>\n")?;
+
+        fmt.block("namespace cs2_dumper", false, |fmt| {
+            fmt.block("namespace offsets", false, |fmt| {
+                for (module_name, offsets) in self {
+                    writeln!(fmt, "// Module: {}", module_name)?;
+
+                    fmt.block(
+                        &format!("namespace {}", AsSnakeCase(slugify(module_name))),
+                        false,
+                        |fmt| {
+                            for (name, value) in offsets {
+                                writeln!(fmt, "constexpr std::ptrdiff_t {} = {:#X};", name, value)?;
+                            }
+
+                            Ok(())
+                        },
+                    )?;
+                }
+
+                Ok(())
+            })
+        })
+    }
 
     fn write_json(&self, fmt: &mut Formatter<'_>) -> fmt::Result {
         fmt.write_str(&serde_json::to_string_pretty(self).unwrap())
