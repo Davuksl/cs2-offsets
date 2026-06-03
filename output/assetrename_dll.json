@@ -1,0 +1,7378 @@
+{
+  "assetrename.dll": {
+    "classes": {
+      "CActionComponent": {
+        "fields": {
+          "m_actions": 56,
+          "m_sName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimConflictBase": {
+        "fields": {
+          "m_conflictData": 40,
+          "m_eConflictType": 104,
+          "m_nResolveIdx": 32,
+          "m_sConflictDesc": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimConflictInfo_t": {
+        "fields": {
+          "m_groupName": 8,
+          "m_id": 24,
+          "m_name": 0,
+          "m_subgraphName": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Action": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_AddNode": {
+        "fields": {
+          "m_additiveInput": 72,
+          "m_bApplyChannelsSeparately": 95,
+          "m_bApplyScale": 97,
+          "m_bApplyToFootMotion": 92,
+          "m_bResetAdditive": 94,
+          "m_bResetBase": 93,
+          "m_bUseModelSpace": 96,
+          "m_baseInput": 64,
+          "m_flTimingBlend": 84,
+          "m_footMotionTiming": 88,
+          "m_timingBehavior": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_AimCameraNode": {
+        "fields": {
+          "m_cameraJointName": 80,
+          "m_clavicleLeftJointName": 96,
+          "m_clavicleRightJointName": 104,
+          "m_depenetrationJointName": 144,
+          "m_ikChain": 72,
+          "m_inputConnection": 64,
+          "m_parameterCameraClearanceDistance": 128,
+          "m_parameterCameraOnly": 124,
+          "m_parameterNameOrientation": 116,
+          "m_parameterNamePelvisOffset": 120,
+          "m_parameterNamePosition": 112,
+          "m_parameterWeaponDepenetrationDelta": 136,
+          "m_parameterWeaponDepenetrationDistance": 132,
+          "m_pelvisJointName": 88,
+          "m_propJoints": 152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_AimCameraNode_PropJoint": {
+        "fields": {
+          "m_jointName": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_AimMatrixNode": {
+        "fields": {
+          "m_attachmentName": 120,
+          "m_bIsPosition": 116,
+          "m_bLockWhenWaning": 145,
+          "m_bResetBase": 144,
+          "m_bUseBiasAndClamp": 146,
+          "m_biasAndClampBlendCurve": 156,
+          "m_blendMode": 128,
+          "m_boneMaskName": 136,
+          "m_damping": 168,
+          "m_flBiasAndClampPitchOffset": 152,
+          "m_flBiasAndClampYawOffset": 148,
+          "m_flMaxPitchAngle": 92,
+          "m_flMaxYawAngle": 88,
+          "m_inputConnection": 72,
+          "m_param": 112,
+          "m_paramName": 104,
+          "m_sequenceName": 80,
+          "m_target": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_AndCondition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BindPoseNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Blend2DItem": {
+        "fields": {
+          "m_bUseCustomDuration": 40,
+          "m_blendValue": 24,
+          "m_flCustomDuration": 44
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Blend2DNode": {
+        "fields": {
+          "m_bAnimEventsAndTagsOnMostWeightedOnly": 232,
+          "m_bLockBlendOnReset": 201,
+          "m_bLockWhenWaning": 202,
+          "m_bLoop": 200,
+          "m_blendSourceX": 160,
+          "m_blendSourceY": 180,
+          "m_damping": 208,
+          "m_eBlendMode": 196,
+          "m_items": 88,
+          "m_paramNameX": 168,
+          "m_paramNameY": 184,
+          "m_paramSpans": 136,
+          "m_paramX": 176,
+          "m_paramY": 192,
+          "m_playbackSpeed": 204,
+          "m_tagSpans": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BlendNode": {
+        "fields": {
+          "m_bIsAngle": 132,
+          "m_bLockBlendOnReset": 128,
+          "m_bLockWhenWaning": 131,
+          "m_bLoop": 130,
+          "m_bSyncCycles": 129,
+          "m_blendKeyType": 124,
+          "m_blendValueSource": 104,
+          "m_children": 80,
+          "m_damping": 136,
+          "m_eLinearRootMotionBlendMode": 160,
+          "m_param": 120,
+          "m_paramName": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BlockSelectionMetric": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BoneMaskNode": {
+        "fields": {
+          "m_bResetChild1": 132,
+          "m_bResetChild2": 133,
+          "m_bUseBlendScale": 92,
+          "m_blendParameter": 112,
+          "m_blendParameterName": 104,
+          "m_blendSpace": 88,
+          "m_blendValueSource": 96,
+          "m_flRootMotionBlend": 124,
+          "m_flTimingBlend": 120,
+          "m_footMotionTiming": 128,
+          "m_inputConnection1": 72,
+          "m_inputConnection2": 80,
+          "m_timingBehavior": 116,
+          "m_weightListName": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BonePositionMetric": {
+        "fields": {
+          "m_boneName": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_BoneVelocityMetric": {
+        "fields": {
+          "m_boneName": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ChoiceNode": {
+        "fields": {
+          "m_bCrossFade": 108,
+          "m_bDontResetSameSelection": 110,
+          "m_bResetChosen": 109,
+          "m_blendMethod": 100,
+          "m_blendTime": 104,
+          "m_children": 64,
+          "m_choiceChangeMethod": 96,
+          "m_choiceMethod": 92,
+          "m_seed": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ChoreoNode": {
+        "fields": {
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ClipData": {
+        "fields": {
+          "m_clipName": 56,
+          "m_tagSpans": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ClipDataManager": {
+        "fields": {
+          "m_itemTable": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CommentNode": {
+        "fields": {
+          "m_color": 80,
+          "m_commentText": 64,
+          "m_size": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Component": {
+        "fields": {
+          "m_bStartEnabled": 44,
+          "m_group": 24,
+          "m_id": 40,
+          "m_nPriority": 48,
+          "m_networkMode": 52
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ComponentManager": {
+        "fields": {
+          "m_components": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ComponentState": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ComponentStateTransition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Condition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ConditionContainer": {
+        "fields": {
+          "m_conditions": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ConflictManager": {
+        "fields": {
+          "m_conflicts": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ContainerNodeBase": {
+        "fields": {
+          "m_inputConnectionMap": 80,
+          "m_inputNodeID": 72,
+          "m_outputNodeID": 76
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CurrentRotationVelocityMetric": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CurrentVelocityMetric": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CycleCondition": {
+        "fields": {
+          "m_comparisonOp": 40,
+          "m_comparisonParamID": 72,
+          "m_comparisonParamName": 64,
+          "m_comparisonString": 48,
+          "m_comparisonValue": 56,
+          "m_comparisonValueType": 60
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CycleControlClipNode": {
+        "fields": {
+          "m_bLockWhenWaning": 140,
+          "m_param": 136,
+          "m_paramName": 128,
+          "m_sequenceName": 112,
+          "m_tagSpans": 88,
+          "m_valueSource": 120
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_CycleControlNode": {
+        "fields": {
+          "m_bLockWhenWaning": 92,
+          "m_inputConnection": 64,
+          "m_param": 88,
+          "m_paramName": 80,
+          "m_valueSource": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_DampedPathMotor": {
+        "fields": {
+          "m_anticipationHeadingParam": 88,
+          "m_anticipationHeadingParamName": 80,
+          "m_anticipationPosParam": 72,
+          "m_anticipationPosParamName": 64,
+          "m_flAnticipationTime": 56,
+          "m_flMaxSpringTension": 100,
+          "m_flMinSpeedScale": 60,
+          "m_flMinSpringTension": 96,
+          "m_flSpringConstant": 92
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_DirectPlaybackNode": {
+        "fields": {
+          "m_bFinishEarly": 72,
+          "m_bResetOnFinish": 73,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_DirectionalBlendNode": {
+        "fields": {
+          "m_animNamePrefix": 72,
+          "m_bLockBlendOnReset": 101,
+          "m_bLoop": 100,
+          "m_blendValueSource": 80,
+          "m_damping": 112,
+          "m_param": 96,
+          "m_paramName": 88,
+          "m_playbackSpeed": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_DistanceRemainingMetric": {
+        "fields": {
+          "m_bFilterFixedMinDistance": 44,
+          "m_bFilterGoalDistance": 52,
+          "m_bFilterGoalOvershoot": 60,
+          "m_flMaxDistance": 40,
+          "m_flMaxGoalOvershootScale": 64,
+          "m_flMinDistance": 48,
+          "m_flStartGoalFilterDistance": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_EmitTagAction": {
+        "fields": {
+          "m_tag": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ExpressionAction": {
+        "fields": {
+          "m_expression": 56,
+          "m_param": 48,
+          "m_paramName": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FinishedCondition": {
+        "fields": {
+          "m_bIsFinished": 44,
+          "m_option": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FollowAttachmentNode": {
+        "fields": {
+          "m_attachmentName": 80,
+          "m_bMatchRotation": 89,
+          "m_bMatchTranslation": 88,
+          "m_boneName": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FollowPathNode": {
+        "fields": {
+          "m_bBlockNonPathMovement": 76,
+          "m_bScaleSpeed": 78,
+          "m_bStopFeetAtGoal": 77,
+          "m_bTurnToFace": 96,
+          "m_damping": 120,
+          "m_facingTarget": 100,
+          "m_flBlendOutTime": 72,
+          "m_flMaxAngle": 88,
+          "m_flMinAngle": 84,
+          "m_flScale": 80,
+          "m_flSpeedScaleBlending": 92,
+          "m_flTurnToFaceOffset": 116,
+          "m_inputConnection": 64,
+          "m_param": 112,
+          "m_paramName": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FollowTargetNode": {
+        "fields": {
+          "m_TargetSettings": 80,
+          "m_bMatchTargetOrientation": 120,
+          "m_boneName": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootAdjustmentNode": {
+        "fields": {
+          "m_bAnimationDriven": 85,
+          "m_bResetChild": 84,
+          "m_baseClipName": 88,
+          "m_clips": 96,
+          "m_facingTarget": 80,
+          "m_facingTargetParam": 72,
+          "m_flStepHeightMax": 128,
+          "m_flStepHeightMaxAngle": 132,
+          "m_flTurnTimeMax": 124,
+          "m_flTurnTimeMin": 120,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootCycleMetric": {
+        "fields": {
+          "m_feet": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootLockNode": {
+        "fields": {
+          "m_bAlwaysUseFallbackHinge": 116,
+          "m_bApplyFootRotationLimits": 108,
+          "m_bApplyHipDrop": 220,
+          "m_bApplyLegTwistLimits": 117,
+          "m_bApplyTilt": 176,
+          "m_bEnableGroundTracing": 212,
+          "m_bEnableHipShift": 144,
+          "m_bEnableLockBreaking": 188,
+          "m_bEnableRootHeightDamping": 256,
+          "m_bEnableStretching": 200,
+          "m_bEnableVerticalCurvedPaths": 132,
+          "m_bModulateStepHeight": 133,
+          "m_bResetChild": 109,
+          "m_flBlendTime": 104,
+          "m_flExtensionScale": 228,
+          "m_flHipShiftScale": 148,
+          "m_flLockBreakBlendTime": 196,
+          "m_flLockBreakTolerance": 192,
+          "m_flMaxFootHeight": 224,
+          "m_flMaxLegTwist": 120,
+          "m_flMaxRootHeightOffset": 288,
+          "m_flMaxStretchAmount": 204,
+          "m_flMinRootHeightOffset": 292,
+          "m_flStepHeightDecreaseScale": 140,
+          "m_flStepHeightIncreaseScale": 136,
+          "m_flStretchExtensionScale": 208,
+          "m_flStrideCurveLimitScale": 128,
+          "m_flStrideCurveScale": 124,
+          "m_flTiltPlanePitchSpringStrength": 180,
+          "m_flTiltPlaneRollSpringStrength": 184,
+          "m_flTraceAngleBlend": 216,
+          "m_hipBoneName": 96,
+          "m_hipDampingSettings": 232,
+          "m_hipShiftDamping": 152,
+          "m_ikSolverType": 112,
+          "m_inputConnection": 64,
+          "m_items": 72,
+          "m_rootHeightDamping": 264
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootPinningNode": {
+        "fields": {
+          "m_bApplyFootRotationLimits": 112,
+          "m_bApplyLegTwistLimits": 128,
+          "m_bResetChild": 136,
+          "m_eTimingSource": 96,
+          "m_flBlendTime": 100,
+          "m_flLockBreakDistance": 104,
+          "m_flMaxLegStraightAmount": 108,
+          "m_flMaxLegTwist": 132,
+          "m_hipBoneName": 120,
+          "m_inputConnection": 64,
+          "m_items": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootPositionMetric": {
+        "fields": {
+          "m_bIgnoreSlope": 64,
+          "m_feet": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FootStepTriggerNode": {
+        "fields": {
+          "m_flTolerance": 72,
+          "m_inputConnection": 64,
+          "m_items": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FutureFacingMetric": {
+        "fields": {
+          "m_flDistance": 40,
+          "m_flTime": 44
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_FutureVelocityMetric": {
+        "fields": {
+          "m_bAutoTargetSpeed": 49,
+          "m_eMode": 48,
+          "m_flDistance": 40,
+          "m_flManualTargetSpeed": 52,
+          "m_flStoppingDistance": 44
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Graph": {
+        "fields": {
+          "m_clipDataManager": 240,
+          "m_modelName": 312,
+          "m_pSettingsManager": 224,
+          "m_previewModelName": 320
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_GraphMotionItem": {
+        "fields": {
+          "m_name": 168,
+          "m_nodeManager": 176
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_GroupInputNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_GroupNode": {
+        "fields": {
+          "m_nodeMgr": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_GroupOutputNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_HitReactNode": {
+        "fields": {
+          "m_bResetBase": 216,
+          "m_flCounterRotationScale": 180,
+          "m_flDistanceFadeScale": 184,
+          "m_flHipBoneTranslationScale": 160,
+          "m_flHipDipDelay": 212,
+          "m_flHipDipImpactScale": 208,
+          "m_flHipDipSpringStrength": 204,
+          "m_flMaxImpactForce": 168,
+          "m_flMinDelayBetweenHits": 72,
+          "m_flMinImpactForce": 172,
+          "m_flPropagationScale": 188,
+          "m_flSpringStrength": 196,
+          "m_flWhipDelay": 192,
+          "m_flWhipImpactScale": 176,
+          "m_flWhipSpringStrength": 200,
+          "m_hipBoneName": 152,
+          "m_hitBoneParam": 124,
+          "m_hitBoneParamName": 88,
+          "m_hitDirectionParam": 132,
+          "m_hitDirectionParamName": 104,
+          "m_hitOffsetParam": 128,
+          "m_hitOffsetParamName": 96,
+          "m_hitStrengthParam": 136,
+          "m_hitStrengthParamName": 112,
+          "m_inputConnection": 64,
+          "m_nEffectedBoneCount": 164,
+          "m_triggerParam": 120,
+          "m_triggerParamName": 80,
+          "m_weightListName": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_InputStreamNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_JiggleBoneNode": {
+        "fields": {
+          "m_inputConnection": 64,
+          "m_items": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_JumpHelperNode": {
+        "fields": {
+          "m_bScaleSpeed": 199,
+          "m_bTranslateX": 196,
+          "m_bTranslateY": 197,
+          "m_bTranslateZ": 198,
+          "m_eCorrectionMethod": 200,
+          "m_flJumpDuration": 192,
+          "m_flJumpStartCycle": 188,
+          "m_targetParamID": 184,
+          "m_targetParamName": 176
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_LeanMatrixNode": {
+        "fields": {
+          "m_blendSource": 84,
+          "m_damping": 128,
+          "m_flMaxValue": 80,
+          "m_horizontalAxisDirection": 112,
+          "m_param": 96,
+          "m_paramName": 88,
+          "m_sequenceName": 72,
+          "m_verticalAxisDirection": 100
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_LookAtNode": {
+        "fields": {
+          "m_attachmentName": 120,
+          "m_bIsPosition": 92,
+          "m_bLockWhenWaning": 142,
+          "m_bMaintainUpDirection": 140,
+          "m_bResetBase": 141,
+          "m_bRotateYawForward": 128,
+          "m_bUseHysteresis": 143,
+          "m_damping": 152,
+          "m_flHysteresisInnerAngle": 144,
+          "m_flHysteresisOuterAngle": 148,
+          "m_flPitchLimit": 136,
+          "m_flYawLimit": 132,
+          "m_inputConnection": 64,
+          "m_lookatChainName": 112,
+          "m_param": 88,
+          "m_paramName": 80,
+          "m_target": 72,
+          "m_weightParam": 104,
+          "m_weightParamName": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionItem": {
+        "fields": {
+          "m_bLoop": 160,
+          "m_blockSpans": 80,
+          "m_paramManager": 40,
+          "m_paramSpans": 128,
+          "m_tagSpans": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionItemGroup": {
+        "fields": {
+          "m_conditions": 64,
+          "m_motions": 32,
+          "m_name": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionMatchingNode": {
+        "fields": {
+          "m_bEnableDistanceScaling": 172,
+          "m_bEnableRotationCorrection": 161,
+          "m_bGoalAssist": 162,
+          "m_bLockSelectionWhenWaning": 160,
+          "m_bSearchEveryTick": 136,
+          "m_bSearchWhenGoalChanges": 145,
+          "m_bSearchWhenMotionEnds": 144,
+          "m_blendCurve": 120,
+          "m_distanceScale_Damping": 192,
+          "m_flBlendTime": 148,
+          "m_flDistanceScale_InnerRadius": 180,
+          "m_flDistanceScale_MaxScale": 184,
+          "m_flDistanceScale_MinScale": 188,
+          "m_flDistanceScale_OuterRadius": 176,
+          "m_flGoalAssistDistance": 164,
+          "m_flGoalAssistTolerance": 168,
+          "m_flReselectionTimeWindow": 156,
+          "m_flSampleRate": 132,
+          "m_flSearchInterval": 140,
+          "m_flSelectionThreshold": 152,
+          "m_groups": 72,
+          "m_metrics": 96,
+          "m_nRandomSeed": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionMetric": {
+        "fields": {
+          "m_flWeight": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionNodeManager": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionParameter": {
+        "fields": {
+          "m_flMaxValue": 40,
+          "m_flMinValue": 36,
+          "m_id": 32,
+          "m_nSamples": 44,
+          "m_name": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MotionParameterManager": {
+        "fields": {
+          "m_params": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Motor": {
+        "fields": {
+          "m_bDefault": 40,
+          "m_name": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_MoverNode": {
+        "fields": {
+          "m_bAdditive": 108,
+          "m_bApplyMovement": 72,
+          "m_bLimitOnly": 132,
+          "m_bOrientMovement": 92,
+          "m_bTurnToFace": 109,
+          "m_damping": 144,
+          "m_facingTarget": 112,
+          "m_flTurnToFaceLimit": 140,
+          "m_flTurnToFaceOffset": 136,
+          "m_inputConnection": 64,
+          "m_moveHeadingParam": 104,
+          "m_moveHeadingParamName": 96,
+          "m_moveVectorParam": 88,
+          "m_moveVectorParamName": 80,
+          "m_param": 128,
+          "m_paramName": 120
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_Node": {
+        "fields": {
+          "m_bDebugThisNode": 52,
+          "m_nNodeID": 48,
+          "m_networkMode": 56,
+          "m_sName": 32,
+          "m_vecPosition": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeBlend2DItem": {
+        "fields": {
+          "m_inputConnection": 48,
+          "m_name": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeConnection": {
+        "fields": {
+          "m_nodeID": 0,
+          "m_outputID": 4
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeList": {
+        "fields": {
+          "m_nodes": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeManager": {
+        "fields": {
+          "m_nodes": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeState": {
+        "fields": {
+          "m_bIsRootMotionExclusive": 136,
+          "m_bIsRootMotionExclusiveFirstFrame": 137,
+          "m_inputConnection": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_NodeStateTransition": {
+        "fields": {
+          "m_bReset": 144,
+          "m_blendCurve": 184,
+          "m_blendDuration": 112,
+          "m_flFixedCycleValue": 152,
+          "m_resetCycleOption": 148
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_OrCondition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_OrientationWarpNode": {
+        "fields": {
+          "m_bEnablePreferredRotationDirection": 136,
+          "m_damping": 112,
+          "m_eMode": 72,
+          "m_ePreferredRotationDirection": 140,
+          "m_eRootMotionSource": 104,
+          "m_eTargetOffsetMode": 88,
+          "m_fallbackTargetPositionParamID": 84,
+          "m_flMaxRootMotionScale": 100,
+          "m_flPreferredRotationThreshold": 144,
+          "m_flTargetOffset": 92,
+          "m_inputConnection": 64,
+          "m_targetOffsetParamID": 96,
+          "m_targetParamID": 76,
+          "m_targetPositionParamID": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PairedSequenceNode": {
+        "fields": {
+          "m_bLoop": 92,
+          "m_flPlaybackSpeed": 88,
+          "m_previewSequenceName": 80,
+          "m_sPairedRole": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ParamSpan": {
+        "fields": {
+          "m_flEndCycle": 72,
+          "m_flStartCycle": 68,
+          "m_id": 64,
+          "m_paramName": 56,
+          "m_samples": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ParamSpanSample": {
+        "fields": {
+          "m_flCycle": 28,
+          "m_value": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ParameterCondition": {
+        "fields": {
+          "m_comparisonOp": 52,
+          "m_comparisonString": 80,
+          "m_comparisonValue": 56,
+          "m_paramID": 48,
+          "m_paramName": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ParameterManager": {
+        "fields": {
+          "m_Parameters": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PathHelperNode": {
+        "fields": {
+          "m_flStoppingRadius": 72,
+          "m_flStoppingSpeedScale": 76,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PathMetric": {
+        "fields": {
+          "m_bExtrapolateMovement": 72,
+          "m_flDistance": 40,
+          "m_flMinExtrapolationSpeed": 76,
+          "m_pathSamples": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PathMotor": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PathMotorBase": {
+        "fields": {
+          "m_bLockToPath": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_PlayerInputMotor": {
+        "fields": {
+          "m_anticipationHeadingParam": 112,
+          "m_anticipationHeadingParamName": 104,
+          "m_anticipationPosParam": 96,
+          "m_anticipationPosParamName": 88,
+          "m_bUseAcceleration": 72,
+          "m_flAnticipationDistance": 80,
+          "m_flSpringConstant": 76,
+          "m_sampleTimes": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ProxyNodeBase": {
+        "fields": {
+          "m_proxyItems": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_RagdollNode": {
+        "fields": {
+          "m_inputConnection": 76,
+          "m_poseControlMethod": 72,
+          "m_weightListName": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_RigidBodyWeightList": {
+        "fields": {
+          "m_name": 8,
+          "m_weights": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_RootNode": {
+        "fields": {
+          "m_inputConnection": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SelectorNode": {
+        "fields": {
+          "m_bLockWhenWaning": 198,
+          "m_bResetOnChange": 196,
+          "m_bSyncCyclesOnChange": 197,
+          "m_blendCurve": 200,
+          "m_blendDuration": 160,
+          "m_boolParamID": 136,
+          "m_boolParamName": 128,
+          "m_children": 64,
+          "m_enumParamID": 152,
+          "m_enumParamName": 144,
+          "m_fallbackChild": 88,
+          "m_selectionSource": 120,
+          "m_tagBehavior": 192,
+          "m_tagID": 156,
+          "m_tags": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SequenceBlend2DItem": {
+        "fields": {
+          "m_sequenceName": 80,
+          "m_tagSpans": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SequenceMotionItem": {
+        "fields": {
+          "m_sequenceName": 168
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SequenceNode": {
+        "fields": {
+          "m_bLoop": 172,
+          "m_paramSpans": 136,
+          "m_playbackSpeed": 168,
+          "m_sequenceName": 160,
+          "m_tagSpans": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SetParameterAction": {
+        "fields": {
+          "m_param": 48,
+          "m_paramName": 40,
+          "m_value": 52
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SingleFrameNode": {
+        "fields": {
+          "m_actions": 96,
+          "m_eFrameSelection": 88,
+          "m_nFrameIndex": 92,
+          "m_sequenceName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SlowDownOnSlopesNode": {
+        "fields": {
+          "m_flSlowDownStrength": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SolveIKChainNode": {
+        "fields": {
+          "m_IkChains": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SpeedScaleNode": {
+        "fields": {
+          "m_inputConnection": 64,
+          "m_param": 80,
+          "m_paramName": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StanceOverrideNode": {
+        "fields": {
+          "m_blendParamID": 88,
+          "m_blendParamName": 80,
+          "m_eMode": 92,
+          "m_inputConnection": 64,
+          "m_nFrameIndex": 104,
+          "m_sequenceName": 96,
+          "m_stanceSourceConnection": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StanceScaleNode": {
+        "fields": {
+          "m_inputConnection": 64,
+          "m_param": 80,
+          "m_paramName": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_State": {
+        "fields": {
+          "m_actions": 64,
+          "m_bIsEndtState": 117,
+          "m_bIsInputToGraph": 118,
+          "m_bIsPassthrough": 119,
+          "m_bIsPassthroughRootMotion": 120,
+          "m_bIsStartState": 116,
+          "m_bPreEvaluatePassthroughTransitionPath": 121,
+          "m_name": 88,
+          "m_position": 108,
+          "m_sComment": 96,
+          "m_stateID": 104,
+          "m_transitions": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StateList": {
+        "fields": {
+          "m_states": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StateMachine": {
+        "fields": {
+          "m_states": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StateMachineNode": {
+        "fields": {
+          "m_bBlockWaningTags": 104,
+          "m_bLockStateWhenWaning": 105,
+          "m_bResetWhenActivated": 106
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StateStatusCondition": {
+        "fields": {
+          "m_comparisonFixedValue": 48,
+          "m_comparisonOp": 68,
+          "m_comparisonParamID": 64,
+          "m_comparisonParamName": 56,
+          "m_comparisonStateValue": 52,
+          "m_comparisonValueType": 44,
+          "m_sourceValue": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StateTransition": {
+        "fields": {
+          "m_bDisabled": 104,
+          "m_conditionList": 40,
+          "m_destState": 92,
+          "m_sComment": 96,
+          "m_srcState": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StepsRemainingMetric": {
+        "fields": {
+          "m_feet": 40,
+          "m_flMinStepsRemaining": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_StopAtGoalNode": {
+        "fields": {
+          "m_damping": 88,
+          "m_flInnerRadius": 76,
+          "m_flMaxScale": 80,
+          "m_flMinScale": 84,
+          "m_flOuterRadius": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SubGraph": {
+        "fields": {
+          "m_componentManager": 80,
+          "m_localParameters": 120,
+          "m_localTags": 144,
+          "m_nodeManager": 8,
+          "m_referencedParamGroups": 168,
+          "m_referencedTagGroups": 192
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SubGraphNode": {
+        "fields": {
+          "m_animNameMap": 120,
+          "m_subGraphFilename": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_SubtractNode": {
+        "fields": {
+          "m_bApplyChannelsSeparately": 95,
+          "m_bApplyToFootMotion": 92,
+          "m_bResetBase": 93,
+          "m_bResetSubtract": 94,
+          "m_bUseModelSpace": 96,
+          "m_baseInputConnection": 64,
+          "m_flTimingBlend": 84,
+          "m_footMotionTiming": 88,
+          "m_subtractInputConnection": 72,
+          "m_timingBehavior": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TagCondition": {
+        "fields": {
+          "m_comparisonValue": 44,
+          "m_latestValue": 45,
+          "m_tagID": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TagManager": {
+        "fields": {
+          "m_tags": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TagSpan": {
+        "fields": {
+          "m_fDuration": 40,
+          "m_fStartCycle": 36,
+          "m_id": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TargetSelectorNode": {
+        "fields": {
+          "m_bEnablePhaseMatching": 117,
+          "m_bTargetFacePositionIsWorldSpace": 116,
+          "m_bTargetPositionIsWorldSpace": 108,
+          "m_children": 64,
+          "m_desiredMoveHeadingParamID": 100,
+          "m_eAngleMode": 92,
+          "m_eLinearRootMotionMode": 88,
+          "m_flPhaseMatchingMaxRootMotionSkip": 120,
+          "m_moveHeadingParamID": 96,
+          "m_targetFacePositionParamID": 112,
+          "m_targetPositionParamID": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TargetWarpNode": {
+        "fields": {
+          "m_bOnlyWarpWhenTagIsFound": 116,
+          "m_bTargetFacePositionIsWorldSpace": 108,
+          "m_bTargetPositionIsWorldSpace": 100,
+          "m_bWarpAroundCenter": 124,
+          "m_bWarpOrientationDuringTranslation": 117,
+          "m_desiredMoveHeadingParamID": 92,
+          "m_eAngleMode": 76,
+          "m_eCorrectionMethod": 80,
+          "m_eLinearRootMotionMode": 72,
+          "m_eTargetWarpTimingMethod": 84,
+          "m_flMaxAngle": 120,
+          "m_inputConnection": 64,
+          "m_moveHeadingParamID": 88,
+          "m_targetFacePositionParamID": 104,
+          "m_targetPositionParamID": 96,
+          "m_targetUpVectorParamID": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TimeCondition": {
+        "fields": {
+          "m_comparisonOp": 40,
+          "m_comparisonString": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TimeRemainingMetric": {
+        "fields": {
+          "m_bFilterByTimeRemaining": 48,
+          "m_bMatchByTimeRemaining": 40,
+          "m_flMaxTimeRemaining": 44,
+          "m_flMinTimeRemaining": 52
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ToggleComponentAction": {
+        "fields": {
+          "m_bSetEnabled": 44,
+          "m_componentID": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TurnHelperNode": {
+        "fields": {
+          "m_bMatchChildDuration": 84,
+          "m_bUseManualTurnOffset": 85,
+          "m_facingTarget": 72,
+          "m_inputConnection": 64,
+          "m_manualTurnOffset": 88,
+          "m_turnDuration": 80,
+          "m_turnStartTime": 76
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_TwoBoneIKNode": {
+        "fields": {
+          "m_attachmentName": 104,
+          "m_bAutoDetectHingeAxis": 80,
+          "m_bConstrainTwist": 148,
+          "m_bMatchTargetOrientation": 132,
+          "m_endEffectorAttachmentName": 88,
+          "m_endEffectorType": 84,
+          "m_flMaxTwist": 152,
+          "m_ikChainName": 72,
+          "m_inputConnection": 64,
+          "m_rotationParam": 144,
+          "m_rotationParamName": 136,
+          "m_targetBoneName": 112,
+          "m_targetParam": 128,
+          "m_targetParamName": 120,
+          "m_targetType": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_WayPointHelperNode": {
+        "fields": {
+          "m_bOnlyGoals": 80,
+          "m_bPreventOvershoot": 81,
+          "m_bPreventUndershoot": 82,
+          "m_flEndCycle": 76,
+          "m_flStartCycle": 72,
+          "m_inputConnection": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimGraphDoc_ZeroPoseNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimParameterConflict": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimScriptComponent": {
+        "fields": {
+          "m_sName": 56,
+          "m_scriptFilename": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimTagConflict": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAnimationLayer": {
+        "fields": {
+          "m_bLooping": 52,
+          "m_bSequenceFinished": 60,
+          "m_flCycle": 16,
+          "m_flKillDelay": 68,
+          "m_flKillRate": 64,
+          "m_flPrevCycle": 12,
+          "m_flWeight": 28,
+          "m_hSequence": 0,
+          "m_nFlags": 56,
+          "m_nOrder": 40,
+          "m_nPriority": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CBasePulseGraphInstance": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CBlendNodeChild": {
+        "fields": {
+          "m_blendValue": 24,
+          "m_inputConnection": 8,
+          "m_name": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CCPPScriptComponent": {
+        "fields": {
+          "m_scriptsToRun": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CChoiceNodeChild": {
+        "fields": {
+          "m_blendTime": 20,
+          "m_inputConnection": 0,
+          "m_name": 8,
+          "m_weight": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CConnectionProxyItem": {
+        "fields": {
+          "m_inputConnection": 12,
+          "m_name": 0,
+          "m_outputID": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CDampedValueComponent": {
+        "fields": {
+          "m_items": 64,
+          "m_name": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CDampedValueItem": {
+        "fields": {
+          "m_damping": 56,
+          "m_floatParamIn": 40,
+          "m_floatParamNameIn": 8,
+          "m_floatParamNameOut": 16,
+          "m_floatParamOut": 44,
+          "m_valueType": 0,
+          "m_vectorParamIn": 48,
+          "m_vectorParamNameIn": 24,
+          "m_vectorParamNameOut": 32,
+          "m_vectorParamOut": 52
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CDemoSettingsComponent": {
+        "fields": {
+          "m_settings": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CEntityComponent": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityIdentity": {
+        "fields": {
+          "m_PathIndex": 64,
+          "m_designerName": 32,
+          "m_fDataObjectTypes": 60,
+          "m_flags": 48,
+          "m_name": 24,
+          "m_nameStringTableIndex": 20,
+          "m_pAttributes": 72,
+          "m_pNext": 88,
+          "m_pNextByClass": 104,
+          "m_pPrev": 80,
+          "m_pPrevByClass": 96,
+          "m_worldGroupId": 56
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CEntityInstance": {
+        "fields": {
+          "m_CScriptComponent": 40,
+          "m_iszPrivateVScripts": 8,
+          "m_pEntity": 16
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CFloatAnimValue": {
+        "fields": {
+          "m_eSource": 28,
+          "m_flConstValue": 8,
+          "m_paramID": 24,
+          "m_paramName": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CFootLockItem": {
+        "fields": {
+          "m_disableTagID": 32,
+          "m_disableTagName": 24,
+          "m_flMaxRotationLeft": 36,
+          "m_flMaxRotationRight": 40,
+          "m_footName": 0,
+          "m_footstepLandedTag": 56,
+          "m_footstepLandedTagName": 48,
+          "m_ikChainName": 16,
+          "m_targetBoneName": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CFootPinningItem": {
+        "fields": {
+          "m_flMaxRotationLeft": 44,
+          "m_flMaxRotationRight": 48,
+          "m_footName": 0,
+          "m_ikChainName": 16,
+          "m_param": 40,
+          "m_paramName": 32,
+          "m_tag": 24,
+          "m_targetBoneName": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CFootStepTriggerItem": {
+        "fields": {
+          "m_footName": 0,
+          "m_tagIDs": 40,
+          "m_tagNames": 16,
+          "m_triggerPhase": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CJiggleBoneItem": {
+        "fields": {
+          "m_boneName": 0,
+          "m_eSimSpace": 20,
+          "m_flDamping": 16,
+          "m_flSimRateFPS": 12,
+          "m_flSpringStrength": 8,
+          "m_vBoundsMaxLS": 24,
+          "m_vBoundsMinLS": 36
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CLODComponent": {
+        "fields": {
+          "m_nServerLOD": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CLookComponent": {
+        "fields": {
+          "m_bNetworkLookTarget": 56,
+          "m_lookDirectionID": 80,
+          "m_lookDistanceID": 76,
+          "m_lookHeadingID": 60,
+          "m_lookHeadingNormalizedID": 64,
+          "m_lookHeadingVelocityID": 68,
+          "m_lookPitchID": 72,
+          "m_lookTargetID": 84,
+          "m_lookTargetWorldSpaceID": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CMovementComponent": {
+        "fields": {
+          "m_bNetworkFacing": 112,
+          "m_bNetworkPath": 80,
+          "m_facingDamping": 88,
+          "m_motors": 56,
+          "m_paramIDs": 116
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPairedSequenceComponent": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CParticleBindingRealPulse": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CParticleCollectionBindingInstance": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseArraylib": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Base": {
+        "fields": {
+          "m_nEditorNodeID": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseFlow": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseLerp": {
+        "fields": {
+          "m_WakeResume": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseLerp__CursorState_t": {
+        "fields": {
+          "m_EndTime": 4,
+          "m_StartTime": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseRequirement": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseState": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseValue": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BaseYieldingInflow": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_BooleanSwitchState": {
+        "fields": {
+          "m_Always": 192,
+          "m_Condition": 72,
+          "m_WhenFalse": 336,
+          "m_WhenTrue": 264
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_CursorQueue": {
+        "fields": {
+          "m_nCursorsAllowedToRunParallel": 152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_FireCursors": {
+        "fields": {
+          "m_OnCanceled": 176,
+          "m_OnFinished": 104,
+          "m_Outflows": 72,
+          "m_bWaitForChildOutflows": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_BaseEntrypoint": {
+        "fields": {
+          "m_EntryChunk": 72,
+          "m_RegisterMap": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_EntOutputHandler": {
+        "fields": {
+          "m_ExpectedParamType": 160,
+          "m_SourceEntity": 128,
+          "m_SourceOutput": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_EventHandler": {
+        "fields": {
+          "m_EventName": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_GraphHook": {
+        "fields": {
+          "m_HookName": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_Method": {
+        "fields": {
+          "m_Args": 184,
+          "m_Description": 144,
+          "m_MethodName": 128,
+          "m_ReturnType": 160,
+          "m_bIsPublic": 152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_ObservableVariableListener": {
+        "fields": {
+          "m_bSelfReference": 130,
+          "m_nBlackboardReference": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_Wait": {
+        "fields": {
+          "m_WakeResume": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Inflow_Yield": {
+        "fields": {
+          "m_UnyieldResume": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_InlineNodeSkipSelector": {
+        "fields": {
+          "m_FailOutflow": 104,
+          "m_PassOutflow": 80,
+          "m_bAnd": 76,
+          "m_nFlowNodeID": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_IntervalTimer": {
+        "fields": {
+          "m_Completed": 72,
+          "m_OnInterval": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_IntervalTimer__CursorState_t": {
+        "fields": {
+          "m_EndTime": 4,
+          "m_StartTime": 0,
+          "m_bCompleteOnNextWake": 16,
+          "m_flWaitInterval": 8,
+          "m_flWaitIntervalHigh": 12
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_IsRequirementValid": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_IsRequirementValid__Criteria_t": {
+        "fields": {
+          "m_bIsValid": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseCell_LimitCount": {
+        "fields": {
+          "m_nLimitCount": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_LimitCount__Criteria_t": {
+        "fields": {
+          "m_bLimitCountPasses": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseCell_LimitCount__InstanceState_t": {
+        "fields": {
+          "m_nCurrentCount": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Outflow_CycleOrdered": {
+        "fields": {
+          "m_Outputs": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Outflow_CycleOrdered__InstanceState_t": {
+        "fields": {
+          "m_nNextIndex": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Outflow_CycleRandom": {
+        "fields": {
+          "m_Outputs": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Outflow_CycleShuffled": {
+        "fields": {
+          "m_Outputs": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Outflow_CycleShuffled__InstanceState_t": {
+        "fields": {
+          "m_Shuffle": 0,
+          "m_nNextShuffle": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_PickBestOutflowSelector": {
+        "fields": {
+          "m_OutflowList": 80,
+          "m_nCheckType": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Step_CallExternalMethod": {
+        "fields": {
+          "m_ExpectedArgs": 96,
+          "m_MethodName": 72,
+          "m_OnFinished": 120,
+          "m_nAsyncCallMode": 112,
+          "m_nBlackboardIndex": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Step_DebugLog": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Step_PublicOutput": {
+        "fields": {
+          "m_OutputIndex": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Timeline": {
+        "fields": {
+          "m_OnCanceled": 176,
+          "m_OnFinished": 104,
+          "m_TimelineEvents": 72,
+          "m_bWaitForChildOutflows": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Timeline__TimelineEvent_t": {
+        "fields": {
+          "m_EventOutflow": 8,
+          "m_flTimeFromPrevious": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Unknown": {
+        "fields": {
+          "m_UnknownKeys": 72
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseCell_Value_Curve": {
+        "fields": {
+          "m_Curve": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Value_Gradient": {
+        "fields": {
+          "m_Gradient": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Value_RandomFloat": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_Value_RandomInt": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_WaitForCursorsWithTag": {
+        "fields": {
+          "m_bTagSelfWhenComplete": 152,
+          "m_nDesiredKillPriority": 156
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_WaitForCursorsWithTagBase": {
+        "fields": {
+          "m_WaitComplete": 80,
+          "m_nCursorsAllowedToWait": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCell_WaitForCursorsWithTagBase__CursorState_t": {
+        "fields": {
+          "m_TagName": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseCell_WaitForObservable": {
+        "fields": {
+          "m_Condition": 72,
+          "m_OnTrue": 192
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseCursorFuncs": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseExecCursor": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseGraphDef": {
+        "fields": {
+          "m_BlackboardReferences": 272,
+          "m_CallInfos": 200,
+          "m_Cells": 104,
+          "m_Chunks": 80,
+          "m_Constants": 224,
+          "m_DomainIdentifier": 8,
+          "m_DomainSubType": 24,
+          "m_DomainValues": 248,
+          "m_InvokeBindings": 176,
+          "m_OutputConnections": 296,
+          "m_ParentMapName": 48,
+          "m_ParentXmlName": 64,
+          "m_PublicOutputs": 152,
+          "m_Vars": 128
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseGraphInstance_SmartPropEval": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CPulseMathlib": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulseTestScriptLib": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulse_BlackboardReference": {
+        "fields": {
+          "m_BlackboardResource": 8,
+          "m_NodeName": 32,
+          "m_hBlackboardResource": 0,
+          "m_nNodeID": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulse_CallInfo": {
+        "fields": {
+          "m_CallMethodID": 72,
+          "m_PortName": 0,
+          "m_RegisterMap": 24,
+          "m_nEditorNodeID": 16,
+          "m_nSrcChunk": 76,
+          "m_nSrcInstruction": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulse_InvokeBinding": {
+        "fields": {
+          "m_FuncName": 48,
+          "m_RegisterMap": 0,
+          "m_nCellIndex": 64,
+          "m_nSrcChunk": 68,
+          "m_nSrcInstruction": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CPulse_OutflowConnection": {
+        "fields": {
+          "m_OutflowRegisterMap": 24,
+          "m_SourceOutflowName": 0,
+          "m_nDestChunk": 16,
+          "m_nInstruction": 20
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CPulse_ResumePoint": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CRagdollComponent": {
+        "fields": {
+          "m_bSolidCollisionAtZeroWeight": 92,
+          "m_flMaxStretch": 88,
+          "m_flSpringFrequencyMax": 84,
+          "m_flSpringFrequencyMin": 80,
+          "m_weightLists": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CRemapValueComponent": {
+        "fields": {
+          "m_items": 64,
+          "m_name": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CRemapValueItem": {
+        "fields": {
+          "m_flMaxInputValue": 60,
+          "m_flMaxOutputValue": 68,
+          "m_flMinInputValue": 56,
+          "m_flMinOutputValue": 64,
+          "m_floatParamIn": 40,
+          "m_floatParamNameIn": 8,
+          "m_floatParamNameOut": 16,
+          "m_floatParamOut": 44,
+          "m_valueType": 0,
+          "m_vectorParamIn": 48,
+          "m_vectorParamNameIn": 24,
+          "m_vectorParamNameOut": 32,
+          "m_vectorParamOut": 52
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CRigidBodyWeight": {
+        "fields": {
+          "m_flWeight": 8,
+          "m_name": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CScriptComponent": {
+        "fields": {
+          "m_scriptClassName": 48
+        },
+        "metadata": [],
+        "parent": "CEntityComponent"
+      },
+      "CSlopeComponent": {
+        "fields": {
+          "m_flTraceDistance": 56,
+          "m_slopeAngleFrontID": 72,
+          "m_slopeAngleID": 60,
+          "m_slopeAngleSideID": 68,
+          "m_slopeHeadingID": 64,
+          "m_slopeNormalID": 76,
+          "m_slopeNormal_WorldSpaceID": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropAttributeApplyColorMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeChoiceSelectionMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeColorSelectionMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeCoordinateSpace": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeDirection": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeDistributionMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeGridOriginMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeGridPlacementMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeOrientationMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributePathPositions": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributePickMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeRadiusPlacementMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeScaleMode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropAttributeTraceNoHit": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropChoice": {
+        "fields": {
+          "m_DefaultOption": 24,
+          "m_Name": 16,
+          "m_Options": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropChoiceOption": {
+        "fields": {
+          "m_DisplayName": 8,
+          "m_Name": 0,
+          "m_VariableValues": 16
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement": {
+        "fields": {
+          "m_Modifiers": 112,
+          "m_SelectionCriteria": 88,
+          "m_bEnabled": 16,
+          "m_nElementID": 8,
+          "m_sLabel": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerLabelExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_BendDeformer": {
+        "fields": {
+          "m_bDeformationEnabled": 160,
+          "m_flBendAngle": 416,
+          "m_flBendPoint": 480,
+          "m_flBendRadius": 544,
+          "m_vAngles": 288,
+          "m_vOrigin": 224,
+          "m_vSize": 352
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_Deformer": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropElement_FitOnLine": {
+        "fields": {
+          "m_PointSpace": 288,
+          "m_UpDirectionSpace": 480,
+          "m_bOrientAlongLine": 352,
+          "m_bPrioritizeUp": 544,
+          "m_nPickMode": 672,
+          "m_nScaleMode": 608,
+          "m_vEnd": 224,
+          "m_vStart": 160,
+          "m_vUpDirection": 416
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_Group": {
+        "fields": {
+          "m_Children": 136
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_Layout2DGrid": {
+        "fields": {
+          "m_GridArrangement": 352,
+          "m_GridOriginMode": 416,
+          "m_bAlternateShift": 736,
+          "m_bVerticalLength": 288,
+          "m_flAlternateShiftLength": 864,
+          "m_flAlternateShiftWidth": 800,
+          "m_flLength": 224,
+          "m_flSpacingLength": 672,
+          "m_flSpacingWidth": 608,
+          "m_flWidth": 160,
+          "m_nCountL": 544,
+          "m_nCountW": 480
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_MidpointDeformer": {
+        "fields": {
+          "m_OutputVariable": 736,
+          "m_bContinuousSpline": 416,
+          "m_bDeformationEnabled": 160,
+          "m_fFalloff": 672,
+          "m_fRadius": 352,
+          "m_vAngles": 544,
+          "m_vEnd": 288,
+          "m_vOffset": 480,
+          "m_vScale": 608,
+          "m_vStart": 224
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_Model": {
+        "fields": {
+          "m_MaterialGroupName": 200,
+          "m_SurfacePropertyOverride": 520,
+          "m_bCastShadows": 592,
+          "m_bDetailObject": 264,
+          "m_bDisableDynamicDeformable": 720,
+          "m_bRigidDeformation": 656,
+          "m_flUniformModelScale": 392,
+          "m_nDetailObjectFadeLevel": 584,
+          "m_nLodLevel": 456,
+          "m_sModelName": 136,
+          "m_vModelScale": 328
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerAssetNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_ModelEntity": {
+        "fields": {
+          "m_MaterialGroupName": 200,
+          "m_bCastShadows": 264,
+          "m_bForceStatic": 328,
+          "m_nDeformableAttachmentMode": 392,
+          "m_nDeformableOrientationMode": 396,
+          "m_sModelName": 136
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerAssetNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_ModifyState": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressBaseClassField",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PickOne": {
+        "fields": {
+          "m_HandleColor": 424,
+          "m_HandleShape": 552,
+          "m_HandleSize": 488,
+          "m_OutputChoiceVariableName": 288,
+          "m_SelectionMode": 160,
+          "m_SpecificChildIndex": 224,
+          "m_bConfigurable": 296,
+          "m_vHandleOffset": 360
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PlaceInSphere": {
+        "fields": {
+          "m_DistributionMode": 224,
+          "m_PlacementMode": 160,
+          "m_bAlignOrientation": 672,
+          "m_flPositionRadiusInner": 544,
+          "m_flPositionRadiusOuter": 608,
+          "m_flRandomness": 288,
+          "m_nCountMax": 480,
+          "m_nCountMin": 416,
+          "m_vAlignDirection": 736,
+          "m_vPlaneUpDirection": 352
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PlaceMultiple": {
+        "fields": {
+          "m_Expression": 224,
+          "m_nCount": 160
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PlaceOnMesh": {
+        "fields": {
+          "m_MeshName": 224,
+          "m_nPickMode": 160
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataExperimentalNodeSet",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PlaceOnPath": {
+        "fields": {
+          "m_DefaultPath": 744,
+          "m_DefaultPathInWorldSpace": 680,
+          "m_PathName": 160,
+          "m_PathSpace": 360,
+          "m_UpDirectionSpace": 616,
+          "m_bUseFixedUpDirection": 424,
+          "m_bUseProjectedDistance": 488,
+          "m_flOffsetAlongPath": 232,
+          "m_flSpacing": 168,
+          "m_vPathOffset": 296,
+          "m_vUpDirection": 552
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PropDynamic": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_PropPhysics": {
+        "fields": {
+          "m_bStartAsleep": 400
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropElement_SmartProp": {
+        "fields": {
+          "m_bLocalEvaluationState": 360,
+          "m_sSmartProp": 136
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerAssetNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropExprAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropFilter": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeTintColor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilterAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropFilter_Expression": {
+        "fields": {
+          "m_Expression": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilter_MaterialAttributes": {
+        "fields": {
+          "m_AllowedMaterialAttributes": 80,
+          "m_DisallowedMaterialAttributes": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilter_Probability": {
+        "fields": {
+          "m_flProbability": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilter_SurfaceAngle": {
+        "fields": {
+          "m_flSurfaceSlopeMax": 144,
+          "m_flSurfaceSlopeMin": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilter_SurfaceProperties": {
+        "fields": {
+          "m_AllowedSurfaceProperties": 80,
+          "m_DisallowedSurfaceProperties": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropFilter_VariableValue": {
+        "fields": {
+          "m_VariableComparison": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropMaterialReplacement": {
+        "fields": {
+          "m_OriginalMaterial": 0,
+          "m_ReplacementMaterial": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropModifier": {
+        "fields": {
+          "m_bEnabled": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperationAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeCrossProduct3D": {
+        "fields": {
+          "m_InputVectorA": 88,
+          "m_InputVectorB": 152,
+          "m_OutputVariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeDistance3D": {
+        "fields": {
+          "m_CoordinateSpaceA": 216,
+          "m_CoordinateSpaceB": 344,
+          "m_InputPositionA": 152,
+          "m_InputPositionB": 280,
+          "m_OutputCoordinateSpace": 88,
+          "m_OutputVariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeDotProduct3D": {
+        "fields": {
+          "m_InputVectorA": 88,
+          "m_InputVectorB": 152,
+          "m_OutputVariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeNormalizedVector3D": {
+        "fields": {
+          "m_InputVector": 88,
+          "m_OutputVariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeProjectVector3D": {
+        "fields": {
+          "m_CoordinateSpaceA": 216,
+          "m_CoordinateSpaceB": 344,
+          "m_InputVectorA": 152,
+          "m_InputVectorB": 280,
+          "m_OutputCoordinateSpace": 88,
+          "m_OutputVariableName": 80,
+          "m_bPlane": 408
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ComputeVectorBetweenPoints3D": {
+        "fields": {
+          "m_CoordinateSpaceA": 280,
+          "m_CoordinateSpaceB": 408,
+          "m_InputPositionA": 216,
+          "m_InputPositionB": 344,
+          "m_OutputCoordinateSpace": 88,
+          "m_OutputVariableName": 80,
+          "m_bNormalized": 152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_CreateLocator": {
+        "fields": {
+          "m_LocatorName": 80,
+          "m_bAllowRotation": 344,
+          "m_bAllowScale": 408,
+          "m_bAllowTranslation": 280,
+          "m_bConfigurable": 216,
+          "m_flDisplayScale": 152,
+          "m_vOffset": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_CreateRotator": {
+        "fields": {
+          "m_CoordinateSpace": 216,
+          "m_DisplayColor": 344,
+          "m_Name": 80,
+          "m_OutputVariable": 792,
+          "m_bApplyToCurrentTransform": 408,
+          "m_bEnforceLimits": 600,
+          "m_flDisplayRadius": 280,
+          "m_flInitialAngle": 536,
+          "m_flMaxAngle": 728,
+          "m_flMinAngle": 664,
+          "m_flSnappingIncrement": 472,
+          "m_vOffset": 88,
+          "m_vRotationAxis": 152
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_CreateSizer": {
+        "fields": {
+          "m_Name": 80,
+          "m_OutputVariableMaxX": 416,
+          "m_OutputVariableMaxY": 688,
+          "m_OutputVariableMaxZ": 960,
+          "m_OutputVariableMinX": 408,
+          "m_OutputVariableMinY": 680,
+          "m_OutputVariableMinZ": 952,
+          "m_bDisplayModel": 88,
+          "m_flConstraintMaxX": 344,
+          "m_flConstraintMaxY": 616,
+          "m_flConstraintMaxZ": 888,
+          "m_flConstraintMinX": 280,
+          "m_flConstraintMinY": 552,
+          "m_flConstraintMinZ": 824,
+          "m_flInitialMaxX": 216,
+          "m_flInitialMaxY": 488,
+          "m_flInitialMaxZ": 760,
+          "m_flInitialMinX": 152,
+          "m_flInitialMinY": 424,
+          "m_flInitialMinZ": 696
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_MaterialOverride": {
+        "fields": {
+          "m_MaterialReplacements": 144,
+          "m_bClearCurrentOverrides": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_MaterialReplacementAPI": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropOperation_MaterialTint": {
+        "fields": {
+          "m_Color": 208,
+          "m_ColorPosition": 296,
+          "m_Gradient": 272,
+          "m_Material": 80,
+          "m_SelectionMode": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RandomColorTintColor": {
+        "fields": {
+          "m_ColorPosition": 144,
+          "m_Gradient": 216,
+          "m_Mode": 208,
+          "m_SelectionMode": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RandomOffset": {
+        "fields": {
+          "m_vRandomPositionMax": 144,
+          "m_vRandomPositionMin": 80,
+          "m_vSnapIncrement": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RandomRotation": {
+        "fields": {
+          "m_vRandomRotationMax": 144,
+          "m_vRandomRotationMin": 80,
+          "m_vSnapIncrement": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RandomScale": {
+        "fields": {
+          "m_flRandomScaleMax": 144,
+          "m_flRandomScaleMin": 80,
+          "m_flSnapIncrement": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ResetRotation": {
+        "fields": {
+          "m_bIgnoreObjectRotation": 80,
+          "m_bResetPitch": 144,
+          "m_bResetRoll": 272,
+          "m_bResetYaw": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_ResetScale": {
+        "fields": {
+          "m_bIgnoreObjectScale": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RestoreState": {
+        "fields": {
+          "m_StateName": 80,
+          "m_bDiscardIfUknown": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeTintColor",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RigidDeformation": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentRequiresAncestor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_Rotate": {
+        "fields": {
+          "m_vRotation": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_RotateTowards": {
+        "fields": {
+          "m_OriginSpace": 336,
+          "m_TargetSpace": 400,
+          "m_UpSpace": 464,
+          "m_flWeight": 272,
+          "m_vOriginPos": 80,
+          "m_vTargetPos": 144,
+          "m_vUpPos": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataExperimentalNodeSet",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SaveColor": {
+        "fields": {
+          "m_VariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SaveDirection": {
+        "fields": {
+          "m_CoordinateSpace": 144,
+          "m_DirectionVector": 80,
+          "m_VariableName": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SavePosition": {
+        "fields": {
+          "m_CoordinateSpace": 80,
+          "m_VariableName": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SaveScale": {
+        "fields": {
+          "m_VariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SaveState": {
+        "fields": {
+          "m_StateName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeTintColor",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SaveSurfaceNormal": {
+        "fields": {
+          "m_CoordinateSpace": 80,
+          "m_VariableName": 144
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_Scale": {
+        "fields": {
+          "m_flScale": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SetMateraialGroupChoice": {
+        "fields": {
+          "m_ChoiceSelection": 152,
+          "m_MaterialGroupChoices": 216,
+          "m_SelectionMode": 88,
+          "m_VariableName": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SetOrientation": {
+        "fields": {
+          "m_ForwardDirectionSpace": 144,
+          "m_UpDirectionSpace": 272,
+          "m_bPrioritizeUp": 336,
+          "m_vForwardVector": 80,
+          "m_vUpVector": 208
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SetPosition": {
+        "fields": {
+          "m_CoordinateSpace": 144,
+          "m_vPosition": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SetTintColor": {
+        "fields": {
+          "m_ColorChoices": 272,
+          "m_ColorSelection": 144,
+          "m_Mode": 208,
+          "m_SelectionMode": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_SetVariable": {
+        "fields": {
+          "m_VariableValue": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_Trace": {
+        "fields": {
+          "m_Origin": 80,
+          "m_OriginSpace": 144,
+          "m_bIgnoreCables": 784,
+          "m_bIgnoreEntities": 720,
+          "m_bIgnoreModels": 656,
+          "m_bIgnoreNoDraw": 528,
+          "m_bIgnoreSky": 464,
+          "m_bIgnoreToolMaterials": 400,
+          "m_bIgnoreTranslucent": 592,
+          "m_flOriginOffset": 208,
+          "m_flSurfaceUpInfluence": 272,
+          "m_nNoHitResult": 336
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_TraceInDirection": {
+        "fields": {
+          "m_DirectionSpace": 912,
+          "m_flTraceLength": 976,
+          "m_vTraceDirection": 848
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_TraceToLine": {
+        "fields": {
+          "m_EndPointA": 848,
+          "m_EndPointB": 976,
+          "m_EndPointSpaceA": 912,
+          "m_EndPointSpaceB": 1040,
+          "m_bTraceAway": 1104,
+          "m_flTraceLength": 1168
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataExperimentalNodeSet",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_TraceToPoint": {
+        "fields": {
+          "m_TargetPoint": 848,
+          "m_TargetPointSpace": 912,
+          "m_bTraceAway": 976,
+          "m_flTraceLength": 1040
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataExperimentalNodeSet",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropOperation_Translate": {
+        "fields": {
+          "m_CoordinateSpace": 144,
+          "m_vPosition": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropParameter": {
+        "fields": {
+          "m_nElementID": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_BaseQueryableFlow": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_CreateLocator": {
+        "fields": {
+          "m_LocatorName": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_CreateRotator": {
+        "fields": {
+          "m_Name": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_CreateSizer": {
+        "fields": {
+          "m_Name": 72,
+          "m_bHACK_ProvideResultMaxX": 81,
+          "m_bHACK_ProvideResultMaxY": 83,
+          "m_bHACK_ProvideResultMaxZ": 85,
+          "m_bHACK_ProvideResultMinX": 80,
+          "m_bHACK_ProvideResultMinY": 82,
+          "m_bHACK_ProvideResultMinZ": 84
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_CriteriaPathPosition": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_CriteriaPathPosition__Criteria_t": {
+        "fields": {
+          "m_PlaceAtPositions": 0,
+          "m_bAllowAtEnd": 13,
+          "m_bAllowAtStart": 12,
+          "m_nNthPositionIndexOffset": 8,
+          "m_nPlaceEveryNthPosition": 4
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropPulse_FitOnLine": {
+        "fields": {
+          "m_OutflowList": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_Group": {
+        "fields": {
+          "m_OutflowList": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_PickOneSelector": {
+        "fields": {
+          "m_HandleShape": 72,
+          "m_OutflowList": 80
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_PlaceInSphere": {
+        "fields": {
+          "m_Place": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_PlaceOnPath": {
+        "fields": {
+          "m_OutflowList": 72,
+          "m_PathName": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionChoiceWeight": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionChoiceWeight__Criteria_t": {
+        "fields": {
+          "m_flWeight": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionEndCap": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionEndCap__Criteria_t": {
+        "fields": {
+          "m_bEnd": 1,
+          "m_bStart": 0
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionLinearLength": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropPulse_SelectionLinearLength__Criteria_t": {
+        "fields": {
+          "m_bAllowScale": 4,
+          "m_flLength": 0,
+          "m_flMaxLength": 12,
+          "m_flMinLength": 8
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CSmartPropPulse_SmartProp": {
+        "fields": {
+          "m_hSmartProp": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropRoot": {
+        "fields": {
+          "m_Children": 120,
+          "m_Choices": 96,
+          "m_Modifiers": 144,
+          "m_Variables": 72,
+          "m_hPulseGraph": 168,
+          "m_nContentVersion": 0,
+          "m_nMaxDepth": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MSmartPropClassVersion",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataFileExtension",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataPreviewWidget",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataGroupNodeClass",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria": {
+        "fields": {
+          "m_bEnabled": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_ChoiceWeight": {
+        "fields": {
+          "m_flWeight": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_EdgeAngleCriteria": {
+        "fields": {
+          "m_bInvert": 200,
+          "m_flMaxAngle": 136,
+          "m_flMinAngle": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_EndCap": {
+        "fields": {
+          "m_bEnd": 136,
+          "m_bStart": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_IsValid": {
+        "fields": {
+          "m_Expression": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_LinearLength": {
+        "fields": {
+          "m_bAllowScale": 136,
+          "m_flLength": 72,
+          "m_flMaxLength": 264,
+          "m_flMinLength": 200
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_MaterialCriteria": {
+        "fields": {
+          "m_bInvert": 136,
+          "m_material": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_PathPosition": {
+        "fields": {
+          "m_PlaceAtPositions": 72,
+          "m_bAllowAtEnd": 328,
+          "m_bAllowAtStart": 264,
+          "m_nNthPositionIndexOffset": 200,
+          "m_nPlaceEveryNthPosition": 136
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_TopoEdgeCountCriteria": {
+        "fields": {
+          "m_bInvert": 136,
+          "m_bSharedVert": 200,
+          "m_nTargetOpenEdgeCount": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropSelectionCriteria_VertexCountCriteria": {
+        "fields": {
+          "m_nTargetVertexCount": 72
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataComponentValidGrandParents",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropTransformOperation": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeTintColor",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable": {
+        "fields": {
+          "m_DisplayName": 32,
+          "m_HideExpression": 40,
+          "m_ReadOnlyExpression": 48,
+          "m_VariableName": 16,
+          "m_bExposeAsParameter": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Angles": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_ApplyColorMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Bool": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_ChoiceSelectionMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Color": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_ColorSelectionMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_CoordinateSpace": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_DirectionVector": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_DistributionMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Float": {
+        "fields": {
+          "m_DefaultValue": 56,
+          "m_flParamaterMaxValue": 64,
+          "m_flParamaterMinValue": 60
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_GridOriginMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_GridPlacementMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Int": {
+        "fields": {
+          "m_DefaultValue": 56,
+          "m_nParamaterMaxValue": 64,
+          "m_nParamaterMinValue": 60
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Material": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_MaterialGroup": {
+        "fields": {
+          "m_DefaultValue": 280,
+          "m_sModelName": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Model": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_OrientationMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_PathPositions": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_PickMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_RadiusPlacementMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_ScaleMode": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_String": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_SurfaceProperty": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_TraceNoHit": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataClassGroup",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Vector2D": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Vector3D": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSmartPropVariable_Vector4D": {
+        "fields": {
+          "m_DefaultValue": 56
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSolveIKChainAnimNodeChainData": {
+        "fields": {
+          "m_DebugSetting": 80,
+          "m_IkChain": 8,
+          "m_OverrideSolverSettings": 20,
+          "m_OverrideTargetSettings": 40,
+          "m_SolverSettingSource": 16,
+          "m_TargetSettingSource": 32,
+          "m_flDebugNormalizedLength": 84,
+          "m_vDebugOffset": 88
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyElementNameFn",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CStateAction": {
+        "fields": {
+          "m_eBehavior": 16,
+          "m_pAction": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CStateMachineComponent": {
+        "fields": {
+          "m_sName": 96
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CTargetSelectorChild": {
+        "fields": {
+          "m_inputConnection": 16,
+          "m_name": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "ColorChoice_t": {
+        "fields": {
+          "m_Color": 0,
+          "m_flWeight": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "MaterialGroupChoice_t": {
+        "fields": {
+          "m_MaterialGroupName": 0,
+          "m_flWeight": 64
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "OutflowWithRequirements_t": {
+        "fields": {
+          "m_Connection": 0,
+          "m_DestinationFlowNodeID": 72,
+          "m_RequirementNodeIDs": 80,
+          "m_nCursorStateBlockIndex": 104
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PulseNodeDynamicOutflows_t": {
+        "fields": {
+          "m_Outflows": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PulseNodeDynamicOutflows_t__DynamicOutflow_t": {
+        "fields": {
+          "m_Connection": 8,
+          "m_OutflowID": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PulseObservableBoolExpression_t": {
+        "fields": {
+          "m_DependentObservableBlackboardReferences": 96,
+          "m_DependentObservableVars": 72,
+          "m_EvaluateConnection": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "PulseSelectorOutflowList_t": {
+        "fields": {
+          "m_Outflows": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "SignatureOutflow_Continue": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
+      "SignatureOutflow_Resume": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      }
+    },
+    "enums": {
+      "AnimConflictType_t": {
+        "alignment": 4,
+        "members": {
+          "ID": 1,
+          "NAME": 2,
+          "NONE": 0
+        },
+        "type": "uint32"
+      },
+      "ApplyColorMode_t": {
+        "alignment": 4,
+        "members": {
+          "MULTIPLY_CURRENT": 1,
+          "MULTIPLY_OBJECT": 0,
+          "REPLACE": 2
+        },
+        "type": "uint32"
+      },
+      "ComparisonValueType": {
+        "alignment": 1,
+        "members": {
+          "COMPARISONVALUETYPE_FIXEDVALUE": 0,
+          "COMPARISONVALUETYPE_PARAMETER": 1
+        },
+        "type": "uint8"
+      },
+      "Comparison_t": {
+        "alignment": 4,
+        "members": {
+          "COMPARISON_COUNT": 6,
+          "COMPARISON_EQUALS": 0,
+          "COMPARISON_GREATER": 2,
+          "COMPARISON_GREATER_OR_EQUAL": 3,
+          "COMPARISON_LESS": 4,
+          "COMPARISON_LESS_OR_EQUAL": 5,
+          "COMPARISON_NOT_EQUALS": 1
+        },
+        "type": "uint32"
+      },
+      "ConfigurationHandleShape_t": {
+        "alignment": 4,
+        "members": {
+          "CIRCLE": 2,
+          "DIAMOND": 3,
+          "NONE": 0,
+          "SQUARE": 1
+        },
+        "type": "uint32"
+      },
+      "DampedValueType": {
+        "alignment": 4,
+        "members": {
+          "FloatParameter": 0,
+          "VectorParameter": 1
+        },
+        "type": "uint32"
+      },
+      "EAnimConflictIndex_t": {
+        "alignment": 4,
+        "members": {
+          "EAC_COUNT": 2,
+          "EAC_FIRST": 0,
+          "EAC_NONE": 2,
+          "EAC_SECOND": 1
+        },
+        "type": "uint32"
+      },
+      "EAnimValueSource": {
+        "alignment": 4,
+        "members": {
+          "Constant": 0,
+          "Parameter": 1
+        },
+        "type": "uint32"
+      },
+      "FinishedConditionOption": {
+        "alignment": 4,
+        "members": {
+          "FinishedConditionOption_OnAlmostFinished": 1,
+          "FinishedConditionOption_OnFinished": 0
+        },
+        "type": "uint32"
+      },
+      "PickMode_t": {
+        "alignment": 4,
+        "members": {
+          "ALL_IN_ORDER": 2,
+          "LARGEST_FIRST": 0,
+          "RANDOM": 1
+        },
+        "type": "uint32"
+      },
+      "PulseBestOutflowRules_t": {
+        "alignment": 4,
+        "members": {
+          "SORT_BY_NUMBER_OF_VALID_CRITERIA": 0,
+          "SORT_BY_OUTFLOW_INDEX": 1
+        },
+        "type": "uint32"
+      },
+      "PulseCursorCancelPriority_t": {
+        "alignment": 4,
+        "members": {
+          "CancelOnSucceeded": 1,
+          "HardCancel": 3,
+          "None": 0,
+          "SoftCancel": 2
+        },
+        "type": "uint32"
+      },
+      "PulseMethodCallMode_t": {
+        "alignment": 4,
+        "members": {
+          "ASYNC_FIRE_AND_FORGET": 1,
+          "SYNC_WAIT_FOR_COMPLETION": 0
+        },
+        "type": "uint32"
+      },
+      "RemapValueType": {
+        "alignment": 4,
+        "members": {
+          "FloatParameter": 0,
+          "VectorParameter": 1
+        },
+        "type": "uint32"
+      },
+      "ScaleMode_t": {
+        "alignment": 4,
+        "members": {
+          "NONE": 0,
+          "SCALE_END_TO_FIT": 1,
+          "SCALE_EQUALLY": 2,
+          "SCALE_MAXIMIZE": 3
+        },
+        "type": "uint32"
+      },
+      "SelectionSource_t": {
+        "alignment": 4,
+        "members": {
+          "SelectionSource_Bool": 0,
+          "SelectionSource_Enum": 1,
+          "SelectionSource_Tag": 2
+        },
+        "type": "uint32"
+      },
+      "SingleFrameSelection": {
+        "alignment": 4,
+        "members": {
+          "FirstFrame": 0,
+          "LastFrame": 1,
+          "SpecificFrame": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropChoiceSelectionMode_t": {
+        "alignment": 4,
+        "members": {
+          "FIRST": 1,
+          "RANDOM": 0,
+          "SPECIFIC": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropColorSelectionMode_t": {
+        "alignment": 4,
+        "members": {
+          "GRADIENT_LOCATION": 3,
+          "GRADIENT_RANDOM": 1,
+          "GRADIENT_RANDOM_STOP": 2,
+          "SPECIFIC_COLOR": 0
+        },
+        "type": "uint32"
+      },
+      "SmartPropDeformableAttachMode_t": {
+        "alignment": 4,
+        "members": {
+          "RELATIVE": 0,
+          "SNAP": 1,
+          "STIFFEN": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropDeformableOrientMode_t": {
+        "alignment": 4,
+        "members": {
+          "BACKWARD_NORMAL": 3,
+          "FORWARD_NORMAL": 1,
+          "MAINTAIN_OFFSET": 4,
+          "NONE": 0,
+          "UP_NORMAL": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropDetailFadeLevel_t": {
+        "alignment": 4,
+        "members": {
+          "LEAST_AGGRESSIVE": 5,
+          "LESS_AGGRESSIVE": 4,
+          "MORE_AGGRESSIVE": 2,
+          "MOST_AGGRESSIVE": 1,
+          "NONE": 0,
+          "NORMAL": 3
+        },
+        "type": "uint32"
+      },
+      "SmartPropDirection_t": {
+        "alignment": 4,
+        "members": {
+          "FORWARD": 0,
+          "LEFT": 1,
+          "UP": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropDistributionMode_t": {
+        "alignment": 4,
+        "members": {
+          "RANDOM": 0,
+          "REGULAR": 1
+        },
+        "type": "uint32"
+      },
+      "SmartPropGridOriginBasis_t": {
+        "alignment": 4,
+        "members": {
+          "CENTER": 0,
+          "CORNER": 1
+        },
+        "type": "uint32"
+      },
+      "SmartPropGridPlacementMode_t": {
+        "alignment": 4,
+        "members": {
+          "FILL": 1,
+          "SEGMENT": 0
+        },
+        "type": "uint32"
+      },
+      "SmartPropPathPositions_t": {
+        "alignment": 4,
+        "members": {
+          "ALL": 0,
+          "CONTROL_POINTS": 3,
+          "NTH": 1,
+          "START_AND_END": 2
+        },
+        "type": "uint32"
+      },
+      "SmartPropPlaceMeshOrientationMode_t": {
+        "alignment": 4,
+        "members": {
+          "FIRST_CLOSED_EDGE": 1,
+          "FIRST_OPEN_EDGE": 0,
+          "UVMAP1": 2,
+          "UVMAP2": 3
+        },
+        "type": "uint32"
+      },
+      "SmartPropRadiusPlacementMode_t": {
+        "alignment": 4,
+        "members": {
+          "CIRCLE": 1,
+          "SPHERE": 0
+        },
+        "type": "uint32"
+      },
+      "SmartPropSpace_t": {
+        "alignment": 4,
+        "members": {
+          "ELEMENT": 2,
+          "OBJECT": 1,
+          "WORLD": 0
+        },
+        "type": "uint32"
+      },
+      "SolveIKChainAnimNodeSettingSource": {
+        "alignment": 4,
+        "members": {
+          "SOLVEIKCHAINANIMNODESETTINGSOURCE_Default": 0,
+          "SOLVEIKCHAINANIMNODESETTINGSOURCE_Override": 1
+        },
+        "type": "uint32"
+      },
+      "StateComparisonValueType": {
+        "alignment": 4,
+        "members": {
+          "StateComparisonValue_FixedValue": 0,
+          "StateComparisonValue_Parameter": 2,
+          "StateComparisonValue_StateValue": 1
+        },
+        "type": "uint32"
+      },
+      "StateValue": {
+        "alignment": 4,
+        "members": {
+          "Count": 4,
+          "SourceStateBlendWeight": 2,
+          "TargetStateBlendWeight": 3,
+          "TotalTranslation_SourceState": 0,
+          "TotalTranslation_TargetState": 1
+        },
+        "type": "uint32"
+      },
+      "TargetWarpLinearRootMotionMode": {
+        "alignment": 4,
+        "members": {
+          "TargetWarpLinearRootMotionMode_Default": 0,
+          "TargetWarpLinearRootMotionMode_FollowPath": 1
+        },
+        "type": "uint32"
+      },
+      "TraceNoHitResult_t": {
+        "alignment": 4,
+        "members": {
+          "DISCARD": 1,
+          "MOVE_TO_END": 3,
+          "MOVE_TO_START": 2,
+          "NOTHING": 0
+        },
+        "type": "uint32"
+      }
+    }
+  }
+}

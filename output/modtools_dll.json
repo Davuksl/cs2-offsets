@@ -1,0 +1,31 @@
+{
+  "modtools.dll": {
+    "classes": {
+      "CNmGraphDocAimCSNode": {
+        "fields": {
+          "m_flActionBlendTimeSeconds": 256,
+          "m_flHandIKBlendInTimeSeconds": 260,
+          "m_flPlantingBlendTimeSeconds": 264
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CnmGraphDocSnapWeaponNode": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      }
+    },
+    "enums": {}
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "assetsystem.dll": {
+    "classes": {
+      "AssetEngineCommand_t": {
+        "fields": {
+          "m_Command": 0,
+          "m_Description": 32,
+          "m_Icon": 16,
+          "m_bBringEngineToFront": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "AutoTagVDataCondition_t": {
+        "fields": {
+          "m_AlternateAssetKey": 280,
+          "m_AssetKey": 224,
+          "m_Expression": 336,
+          "m_SourceFile": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAssetTagInfo": {
+        "fields": {
+          "m_AutoDataTag": 136,
+          "m_AutoFilterTag": 128,
+          "m_RestrictAutoTagToAssetType": 120,
+          "m_TagAliases": 80,
+          "m_TagColor": 72,
+          "m_TagDescription": 56,
+          "m_TagIcon": 64,
+          "m_TagName": 48,
+          "m_ThumbnailOverlayImage": 104,
+          "m_bTagHidesAssetByDefault": 113,
+          "m_bTagIndicatesRejectedAsset": 112
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerDetailExpr",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerIconExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAssetTypeConfig": {
+        "fields": {
+          "m_AssetTypes": 0,
+          "m_AssetWarnings": 48,
+          "m_SubassetTypes": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAssetWarning": {
+        "fields": {
+          "m_Checks": 40,
+          "m_Message": 24,
+          "m_Title": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CAssetWarningCheck": {
+        "fields": {
+          "m_AssetType": 0,
+          "m_ExcludeAddonNames": 32,
+          "m_FixDescription": 56,
+          "m_FixType": 64,
+          "m_RequireSearchableIntKey": 8,
+          "m_RequireSearchableIntValue": 24,
+          "m_bOnlyWarnAddons": 30,
+          "m_bOnlyWarnIfContentFilePresent": 29,
+          "m_bOnlyWarnIfGameFilePresent": 28
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CBaseToolInfo": {
+        "fields": {
+          "m_FriendlyName": 16,
+          "m_Name": 0,
+          "m_OverrideToolShortcutName": 8,
+          "m_ToolIcon": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CBitmapAssetTypeInfo": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CDetailPropModel": {
+        "fields": {
+          "m_MaterialGroup": 224,
+          "m_ModelName": 0,
+          "m_bCastStaticShadows": 316,
+          "m_flBlendWeightFullDenstity": 312,
+          "m_flBlendWeightMax": 308,
+          "m_flBlendWeightMin": 304,
+          "m_flBlendWeightMinScale": 300,
+          "m_flDensityMinScale": 296,
+          "m_flEndFadeSize": 240,
+          "m_flMaxSurfaceSlope": 252,
+          "m_flMinSurfaceSlope": 248,
+          "m_flOrientToSurface": 244,
+          "m_flRandomScaleMax": 292,
+          "m_flRandomScaleMin": 288,
+          "m_flRandomVerticalOffsetMax": 260,
+          "m_flRandomVerticalOffsetMin": 256,
+          "m_flStartFadeSize": 236,
+          "m_flWeight": 232,
+          "m_vRandomRotationMax": 276,
+          "m_vRandomRotationMin": 264
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerAssetNameExpr",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CDetailPropType": {
+        "fields": {
+          "m_Models": 8,
+          "m_flDensity": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataAssociatedFile",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOutlinerDefaultExpanded",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CEngineToolInfo": {
+        "fields": {
+          "m_AssetTypes": 56,
+          "m_ExcludeFromMods": 104,
+          "m_InterfaceName": 40,
+          "m_Library": 32,
+          "m_LimitToMods": 80,
+          "m_bCanHighlightSubassets": 53,
+          "m_bDoNotWarnAboutLargeAssetBatches": 50,
+          "m_bIsSecondaryTool": 49,
+          "m_bIsWorkshopItemTool": 52,
+          "m_bIsWorkshopManagerTool": 51,
+          "m_bShowInRevisionSubMenu": 48
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CExternalToolInfo": {
+        "fields": {
+          "m_Args": 40,
+          "m_ArgsWithLineColumn": 48,
+          "m_Executable": 32,
+          "m_MatchSystemExecutable": 64,
+          "m_PriorityExts": 96,
+          "m_SupportedExts": 72,
+          "m_WorkingDir": 56,
+          "m_bDebugCommandline": 120
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CManifestInfo": {
+        "fields": {
+          "m_Group": 8,
+          "m_Mod": 16,
+          "m_Name": 0,
+          "m_Resources": 40,
+          "m_SourceFile": 24,
+          "m_nSourceLine": 32
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CMapAssetTypeInfo": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CModuleManifests": {
+        "fields": {
+          "m_Manifests": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CResourceAssetTypeInfo": {
+        "fields": {
+          "m_Blocks": 288,
+          "m_CompileDependsOnResourceTypes": 264,
+          "m_CompilerIdentifier": 256,
+          "m_RequiredSpecialDependency": 312,
+          "m_bAllowedToCompileInTestMode": 323,
+          "m_bCannotBeAMultiParentChildCompile": 321,
+          "m_bPrefersIconForThumbnail": 322,
+          "m_bPreventDirectCompile": 320
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSimpleAssetTypeInfo": {
+        "fields": {
+          "m_AdditionalExtensions": 72,
+          "m_EngineCommands": 96,
+          "m_ExcludeFromMods": 144,
+          "m_Ext": 24,
+          "m_FriendlyName": 16,
+          "m_HideForRetailMods": 168,
+          "m_IconLg": 32,
+          "m_IconSm": 40,
+          "m_LimitToMods": 120,
+          "m_PreviewThumbnailOverlayIcon": 192,
+          "m_SuppressSubstrings": 48,
+          "m_Test_InjectSearchable": 248,
+          "m_UnrecognizedOutboundRefsErrorTypeExceptions": 208,
+          "m_bCannotBeShown": 233,
+          "m_bContentFileIsText": 237,
+          "m_bErrorOnUnrecognizedOutboundRefs": 200,
+          "m_bHideTypeByDefault": 232,
+          "m_bIgnoreCompiledState": 236,
+          "m_bIsNontrivialChildAssetType": 234,
+          "m_bPrefersLivePreview": 238,
+          "m_bPresentInGameTree": 239,
+          "m_bShouldCompileErrorFallbackToDisk": 240,
+          "m_bSuppressFullFingerprintCalculation": 235,
+          "m_nAssetTypeVersion": 244
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CSubassetTypeInfo": {
+        "fields": {
+          "m_bFollowReferences": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CToolsConfig": {
+        "fields": {
+          "m_EngineModulesThatReferenceAssets": 48,
+          "m_EngineTools": 0,
+          "m_ExternalTools": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "CVMMDAssetTypeInfo": {
+        "fields": {},
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
+      "ResourceBlockTypeInfo_t": {
+        "fields": {
+          "m_BlockID": 8,
+          "m_Encoding": 0,
+          "m_IntrospectedRootStruct": 16,
+          "m_ResourceVersion": 24
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      }
+    },
+    "enums": {
+      "AssetWarningFixType_t": {
+        "alignment": 4,
+        "members": {
+          "NONE": 0,
+          "VMAP_MANUAL_RECOMPILE": 2,
+          "VMDL_CONVERT_TO_MODELDOC": 1
+        },
+        "type": "uint32"
+      },
+      "ResourceDataEncodingType_t": {
+        "alignment": 4,
+        "members": {
+          "RESOURCE_ENCODING_COMPILEIMAGEUTILS_TEXT": 6,
+          "RESOURCE_ENCODING_COUNT": 13,
+          "RESOURCE_ENCODING_INTROSPECTED": 0,
+          "RESOURCE_ENCODING_INVALID": -1,
+          "RESOURCE_ENCODING_KV3": 1,
+          "RESOURCE_ENCODING_LEGACY_VSND": 12,
+          "RESOURCE_ENCODING_MBUF": 8,
+          "RESOURCE_ENCODING_MIDX": 10,
+          "RESOURCE_ENCODING_MSLT": 11,
+          "RESOURCE_ENCODING_MVTX": 9,
+          "RESOURCE_ENCODING_RAW_BYTES": 3,
+          "RESOURCE_ENCODING_TEXT": 7,
+          "RESOURCE_ENCODING_VRMAN": 5,
+          "RESOURCE_ENCODING_VSNAP": 4,
+          "RESOURCE_ENCODING_VTEX": 2
+        },
+        "type": "uint32"
+      }
+    }
+  }
+}
