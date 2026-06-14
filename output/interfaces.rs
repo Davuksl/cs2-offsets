@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-06-03 08:55:27.313551 UTC
+// 2026-06-14 10:41:20.425206500 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -10,33 +10,16 @@ pub mod cs2_dumper {
             pub const AnimationSystemUtils_001: usize = 0x812190;
             pub const AnimationSystem_001: usize = 0x80A0B0;
         }
-        // Module: assetbrowser.dll
-        pub mod assetbrowser_dll {
-            pub const AssetBrowserSystem_001: usize = 0x336C30;
-        }
-        // Module: assetpreview.dll
-        pub mod assetpreview_dll {
-            pub const AssetPreviewSystem_001: usize = 0xDCCF10;
-        }
-        // Module: assetrename.dll
-        pub mod assetrename_dll {
-            pub const AssetRenameSystem_001: usize = 0x1D113A8;
-        }
-        // Module: assetsystem.dll
-        pub mod assetsystem_dll {
-            pub const AssetSystem001: usize = 0x583750;
-            pub const AssetSystemTest001: usize = 0x513808;
-        }
         // Module: client.dll
         pub mod client_dll {
-            pub const ClientToolsInfo_001: usize = 0x20642C0;
-            pub const EmptyWorldService001_Client: usize = 0x2027AF0;
-            pub const GameClientExports001: usize = 0x2060F60;
-            pub const LegacyGameUI001: usize = 0x207C480;
-            pub const Source2Client002: usize = 0x233B100;
-            pub const Source2ClientConfig001: usize = 0x22ACF60;
-            pub const Source2ClientPrediction001: usize = 0x23405A0;
-            pub const Source2ClientUI001: usize = 0x207A9E0;
+            pub const ClientToolsInfo_001: usize = 0x20652C0;
+            pub const EmptyWorldService001_Client: usize = 0x2028AF0;
+            pub const GameClientExports001: usize = 0x2061F60;
+            pub const LegacyGameUI001: usize = 0x207D480;
+            pub const Source2Client002: usize = 0x233C100;
+            pub const Source2ClientConfig001: usize = 0x22ADF80;
+            pub const Source2ClientPrediction001: usize = 0x23415A0;
+            pub const Source2ClientUI001: usize = 0x207B9E0;
         }
         // Module: engine2.dll
         pub mod engine2_dll {
@@ -74,18 +57,10 @@ pub mod cs2_dumper {
             pub const VENGINE_GAMEUIFUNCS_VERSION005: usize = 0x610330;
             pub const VProfService_001: usize = 0x613190;
         }
-        // Module: exportsystem.dll
-        pub mod exportsystem_dll {
-            pub const EXPORTSYSTEM_INTERFACE_VERSION_001: usize = 0x338CD0;
-        }
         // Module: filesystem_stdio.dll
         pub mod filesystem_stdio_dll {
             pub const VAsyncFileSystem2_001: usize = 0x2159E0;
             pub const VFileSystem017: usize = 0x2157A0;
-        }
-        // Module: helpsystem.dll
-        pub mod helpsystem_dll {
-            pub const HelpSystem_001: usize = 0x9EAB0;
         }
         // Module: host.dll
         pub mod host_dll {
@@ -128,14 +103,6 @@ pub mod cs2_dumper {
         pub mod meshsystem_dll {
             pub const MeshSystem001: usize = 0x150C20;
         }
-        // Module: modeldoc_utils.dll
-        pub mod modeldoc_utils_dll {
-            pub const ModelDocUtils001: usize = 0xDE9D88;
-        }
-        // Module: modtools.dll
-        pub mod modtools_dll {
-            pub const Source2ModTools001: usize = 0xE46E50;
-        }
         // Module: navsystem.dll
         pub mod navsystem_dll {
             pub const NavSystem001: usize = 0x122930;
@@ -163,10 +130,6 @@ pub mod cs2_dumper {
         pub mod particles_dll {
             pub const ParticleSystemMgr003: usize = 0x54A370;
         }
-        // Module: propertyeditor.dll
-        pub mod propertyeditor_dll {
-            pub const PropertyEditorSystem_001: usize = 0x140B10;
-        }
         // Module: pulse_system.dll
         pub mod pulse_system_dll {
             pub const IPulseSystem_001: usize = 0x1F36A0;
@@ -176,12 +139,6 @@ pub mod cs2_dumper {
             pub const RenderDeviceMgr001: usize = 0x42B530;
             pub const RenderUtils_001: usize = 0x42BE28;
             pub const VRenderDeviceMgrBackdoor001: usize = 0x42B5D0;
-        }
-        // Module: resourcecompiler.dll
-        pub mod resourcecompiler_dll {
-            pub const MODEL_PROCESSING_SERVICES_INTERFACE_001: usize = 0x2FC4270;
-            pub const ResourceCompilerSystem001: usize = 0x2FC3B20;
-            pub const launchable_dll_1: usize = 0x2FB9FC0;
         }
         // Module: resourcesystem.dll
         pub mod resourcesystem_dll {
@@ -233,22 +190,9 @@ pub mod cs2_dumper {
             pub const VProcessUtils002: usize = 0x39E690;
             pub const VStringTokenSystem001: usize = 0x3D00B0;
         }
-        // Module: toolframework2.dll
-        pub mod toolframework2_dll {
-            pub const ToolFramework2_002: usize = 0xB150D0;
-            pub const ToolServices_002: usize = 0xB150F8;
-        }
-        // Module: toolscenenodes.dll
-        pub mod toolscenenodes_dll {
-            pub const ToolSceneNodeFactory_001: usize = 0xD8AC90;
-        }
         // Module: v8system.dll
         pub mod v8system_dll {
             pub const Source2V8System001: usize = 0x31730;
-        }
-        // Module: vconcomm.dll
-        pub mod vconcomm_dll {
-            pub const VConComm001: usize = 0x395C0;
         }
         // Module: vphysics2.dll
         pub mod vphysics2_dll {
