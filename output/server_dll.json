@@ -1846,6 +1846,33 @@
         "metadata": [],
         "parent": "CBot"
       },
+      "CCSCustomHudLayout": {
+        "fields": {
+          "m_globalLayoutState": 1304,
+          "m_strLayout": 1192,
+          "m_vecClassNames": 1736,
+          "m_vecDialogVariableNames": 1760,
+          "m_vecPanelIds": 1712,
+          "m_vecPlayerLayoutStates": 1200
+        },
+        "metadata": [],
+        "parent": "CBaseEntity"
+      },
+      "CCSCustomHudLayoutState": {
+        "fields": {
+          "m_bInputCaptureEnabled": 52,
+          "m_playerSlot": 48,
+          "m_vecDialogVariableStrings": 152,
+          "m_vecHasClasses": 56
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "CCSCustomHudLayout_API": {
+        "fields": {},
+        "metadata": [],
+        "parent": null
+      },
       "CCSGO_EndOfMatchLineupEnd": {
         "fields": {},
         "metadata": [],
@@ -2242,6 +2269,15 @@
         "metadata": [],
         "parent": "CPlayer_CameraServices"
       },
+      "CCSPlayerCamera": {
+        "fields": {
+          "m_bEnabled": 1196,
+          "m_bIsControllingAngles": 1197,
+          "m_hPawn": 1192
+        },
+        "metadata": [],
+        "parent": null
+      },
       "CCSPlayerController": {
         "fields": {
           "m_DesiredObserverMode": 2284,
@@ -2433,12 +2469,12 @@
           "m_RetakesMVPBoostExtraUtility": 3748,
           "m_TouchingBuyZones": 3704,
           "m_allowAutoFollowTime": 4688,
-          "m_angEyeAngles": 4968,
+          "m_angEyeAngles": 4976,
           "m_angStashedShootAngles": 4904,
           "m_bBotAllowActive": 4808,
-          "m_bCommittingSuicideOnTeamChange": 4952,
+          "m_bCommittingSuicideOnTeamChange": 4960,
           "m_bGrenadeParametersStashed": 4900,
-          "m_bGunGameImmunity": 4960,
+          "m_bGunGameImmunity": 4968,
           "m_bHasDeathInfo": 4852,
           "m_bHasFemaleVoice": 3442,
           "m_bInBombZone": 3730,
@@ -2467,10 +2503,10 @@
           "m_bWasInBuyZone": 3728,
           "m_bWasInHostageRescueZone": 3731,
           "m_entitySpottedState": 4704,
-          "m_fImmuneToGunGameDamageTime": 4956,
+          "m_fImmuneToGunGameDamageTime": 4964,
           "m_fLastGivenBombTime": 4672,
           "m_fLastGivenDefuserTime": 4668,
-          "m_fMolotovDamageTime": 4964,
+          "m_fMolotovDamageTime": 4972,
           "m_fSwitchedHandednessTime": 4644,
           "m_flDealtDamageToEnemyMostRecentTimestamp": 4676,
           "m_flDeathInfoTime": 4856,
@@ -2526,10 +2562,11 @@
           "m_vRagdollServerOrigin": 3928,
           "m_vecDeathInfoOrigin": 4860,
           "m_vecPlayerPatchEconIndices": 4872,
+          "m_vecStashedGrenadeThrowPawnCenter": 4928,
           "m_vecStashedGrenadeThrowPosition": 4916,
-          "m_vecStashedVelocity": 4928,
+          "m_vecStashedVelocity": 4940,
           "m_vecTotalBulletForce": 4772,
-          "m_wasNotKilledNaturally": 4953
+          "m_wasNotKilledNaturally": 4961
         },
         "metadata": [],
         "parent": "CCSPlayerPawnBase"
@@ -12099,6 +12136,30 @@
         ],
         "parent": null
       },
+      "HUDPanelDialogVariableString_t": {
+        "fields": {
+          "m_bIsSet": 24,
+          "m_nDialogVariableIndex": 10,
+          "m_nPanelIdIndex": 8,
+          "m_sValue": 16
+        },
+        "metadata": [],
+        "parent": null
+      },
+      "HUDPanelHasClass_t": {
+        "fields": {
+          "m_eClassStatus": 4,
+          "m_nClassNameIndex": 2,
+          "m_nPanelIdIndex": 0
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "HullFlags_t": {
         "fields": {
           "m_bHull_Human": 0,
@@ -14243,6 +14304,7 @@
           "CS_UM_CounterStrafe": 385,
           "CS_UM_CurrentRoundOdds": 380,
           "CS_UM_CurrentTimescale": 332,
+          "CS_UM_CustomHudClicked": 390,
           "CS_UM_Damage": 321,
           "CS_UM_DamagePrediction": 386,
           "CS_UM_DeepStats": 381,
@@ -14572,20 +14634,6 @@
           "k_EMsgGCToGCIsTrustedServerResponse": 2520,
           "k_EMsgGCToGCUpdateSQLKeyValue": 2518,
           "k_EMsgGCToGCWebAPIAccountChanged": 2524,
-          "k_EMsgGCTradingBase": 1500,
-          "k_EMsgGCTrading_CancelSession": 1510,
-          "k_EMsgGCTrading_ConfirmOffer": 1512,
-          "k_EMsgGCTrading_InitiateTradeRequest": 1501,
-          "k_EMsgGCTrading_InitiateTradeResponse": 1502,
-          "k_EMsgGCTrading_ReadinessResponse": 1508,
-          "k_EMsgGCTrading_RemoveItem": 1505,
-          "k_EMsgGCTrading_SessionClosed": 1509,
-          "k_EMsgGCTrading_SetItem": 1504,
-          "k_EMsgGCTrading_SetReadiness": 1507,
-          "k_EMsgGCTrading_StartSession": 1503,
-          "k_EMsgGCTrading_TradeChatMsg": 1511,
-          "k_EMsgGCTrading_TradeTypingChatMsg": 1513,
-          "k_EMsgGCTrading_UpdateTradeInfo": 1506,
           "k_EMsgGCUnlockCrateResponse": 1008,
           "k_EMsgGCUnlockCrate_DEPRECATED": 1007,
           "k_EMsgGCUnlockItemStyle": 1084,
@@ -14758,6 +14806,15 @@
           "EHG_RightArm": 5,
           "EHG_RightLeg": 7,
           "EHG_Stomach": 3
+        },
+        "type": "uint32"
+      },
+      "EHudPanelClassStatus_t": {
+        "alignment": 4,
+        "members": {
+          "k_eHudPanelClassStatus_DoesNotHaveClass": 0,
+          "k_eHudPanelClassStatus_HasClass": 1,
+          "k_eHudPanelClassStatus_Undefined": -1
         },
         "type": "uint32"
       },

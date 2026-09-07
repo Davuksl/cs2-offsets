@@ -1,9 +1,4 @@
-07:49:01 [INFO] found 16 buttons
-07:49:01 [INFO] found 111 interfaces across 31 modules
-07:49:01 [ERROR] outdated pattern: dwPlantedC4
-07:49:01 [ERROR] outdated pattern: dwSensitivity_sensitivity
-07:49:01 [ERROR] outdated pattern: dwNetworkGameClient_isBackgroundMap
-07:49:01 [ERROR] outdated pattern: dwSoundSystem
-07:49:01 [INFO] found 28 offsets across 5 modules
-07:49:01 [INFO] found 3330 classes and 549 enums across 18 modules
-07:49:01 [INFO] analysis completed in 859.09ms
+09:57:58 [INFO] found 16 buttons
+09:57:58 [INFO] found 111 interfaces across 31 modules
+09:57:59 [INFO] found 32 offsets across 5 modules
+09:57:59 [INFO] found 3340 classes and 550 enums across 18 modules

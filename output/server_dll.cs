@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-11 07:49:01.880334200 UTC
+// 2026-09-07 09:53:10.175150600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
-    // Class count: 990
-    // Enum count: 237
+    // Class count: 996
+    // Enum count: 238
     public static class ServerDll {
         // Alignment: 4
         // Member count: 4
@@ -2137,7 +2137,7 @@ namespace CS2Dumper.Schemas {
             eAllButCannotClear = unchecked((uint)4294967294)
         }
         // Alignment: 4
-        // Member count: 78
+        // Member count: 79
         public enum ECstrike15UserMessages : uint {
             CS_UM_VGUIMenu = 0x12D,
             CS_UM_Geiger = 0x12E,
@@ -2216,7 +2216,8 @@ namespace CS2Dumper.Schemas {
             CS_UM_DamagePrediction = 0x182,
             CS_UM_RecurringMissionSchema = 0x183,
             CS_UM_SendPlayerLoadout = 0x184,
-            CS_UM_WeaponMagDrop = 0x185
+            CS_UM_WeaponMagDrop = 0x185,
+            CS_UM_CustomHudClicked = 0x186
         }
         // Alignment: 4
         // Member count: 6
@@ -2347,6 +2348,13 @@ namespace CS2Dumper.Schemas {
             MOVE_MOUNT_LOW = 0x1,
             MOVE_MOUNT_HIGH = 0x2,
             MOVE_MOUNT_MAXCOUNT = 0x3
+        }
+        // Alignment: 4
+        // Member count: 3
+        public enum EHudPanelClassStatus_t : uint {
+            k_eHudPanelClassStatus_Undefined = unchecked((uint)-1),
+            k_eHudPanelClassStatus_DoesNotHaveClass = 0x0,
+            k_eHudPanelClassStatus_HasClass = 0x1
         }
         // Alignment: 4
         // Member count: 4
@@ -2860,7 +2868,7 @@ namespace CS2Dumper.Schemas {
             VR_HAND_HAPTIC_PULSE_STRONG = 0x2
         }
         // Alignment: 4
-        // Member count: 147
+        // Member count: 133
         public enum EGCItemMsg : uint {
             k_EMsgGCBase = 0x3E8,
             k_EMsgGCSetItemPosition = 0x3E9,
@@ -2947,20 +2955,6 @@ namespace CS2Dumper.Schemas {
             k_EMsgGCCasketItemAdd = 0x444,
             k_EMsgGCCasketItemExtract = 0x445,
             k_EMsgGCCasketItemLoadContents = 0x446,
-            k_EMsgGCTradingBase = 0x5DC,
-            k_EMsgGCTrading_InitiateTradeRequest = 0x5DD,
-            k_EMsgGCTrading_InitiateTradeResponse = 0x5DE,
-            k_EMsgGCTrading_StartSession = 0x5DF,
-            k_EMsgGCTrading_SetItem = 0x5E0,
-            k_EMsgGCTrading_RemoveItem = 0x5E1,
-            k_EMsgGCTrading_UpdateTradeInfo = 0x5E2,
-            k_EMsgGCTrading_SetReadiness = 0x5E3,
-            k_EMsgGCTrading_ReadinessResponse = 0x5E4,
-            k_EMsgGCTrading_SessionClosed = 0x5E5,
-            k_EMsgGCTrading_CancelSession = 0x5E6,
-            k_EMsgGCTrading_TradeChatMsg = 0x5E7,
-            k_EMsgGCTrading_ConfirmOffer = 0x5E8,
-            k_EMsgGCTrading_TradeTypingChatMsg = 0x5E9,
             k_EMsgGCServerBrowser_FavoriteServer = 0x641,
             k_EMsgGCServerBrowser_BlacklistServer = 0x642,
             k_EMsgGCServerRentalsBase = 0x6A4,
@@ -5674,7 +5668,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_WaitComplete = 0xE0; // CPulse_ResumePoint
         }
         // Parent: CCSPlayerPawnBase
-        // Field count: 104
+        // Field count: 105
         public static class CCSPlayerPawn {
             public const nint m_pBulletServices = 0xD38; // CCSPlayer_BulletServices*
             public const nint m_pHostageServices = 0xD40; // CCSPlayer_HostageServices*
@@ -5773,13 +5767,14 @@ namespace CS2Dumper.Schemas {
             public const nint m_bGrenadeParametersStashed = 0x1324; // bool
             public const nint m_angStashedShootAngles = 0x1328; // QAngle
             public const nint m_vecStashedGrenadeThrowPosition = 0x1334; // VectorWS
-            public const nint m_vecStashedVelocity = 0x1340; // Vector
-            public const nint m_bCommittingSuicideOnTeamChange = 0x1358; // bool
-            public const nint m_wasNotKilledNaturally = 0x1359; // bool
-            public const nint m_fImmuneToGunGameDamageTime = 0x135C; // GameTime_t
-            public const nint m_bGunGameImmunity = 0x1360; // bool
-            public const nint m_fMolotovDamageTime = 0x1364; // float32
-            public const nint m_angEyeAngles = 0x1368; // QAngle
+            public const nint m_vecStashedGrenadeThrowPawnCenter = 0x1340; // VectorWS
+            public const nint m_vecStashedVelocity = 0x134C; // Vector
+            public const nint m_bCommittingSuicideOnTeamChange = 0x1360; // bool
+            public const nint m_wasNotKilledNaturally = 0x1361; // bool
+            public const nint m_fImmuneToGunGameDamageTime = 0x1364; // GameTime_t
+            public const nint m_bGunGameImmunity = 0x1368; // bool
+            public const nint m_fMolotovDamageTime = 0x136C; // float32
+            public const nint m_angEyeAngles = 0x1370; // QAngle
         }
         // Parent: CBaseEntity
         // Field count: 22
@@ -6378,6 +6373,16 @@ namespace CS2Dumper.Schemas {
             public const nint m_flRadius = 0x9C0; // float32
             public const nint m_flNextSuckTime = 0x9C4; // GameTime_t
             public const nint m_iMaxObjectsAttached = 0x9C8; // int32
+        }
+        // Parent: CBaseEntity
+        // Field count: 6
+        public static class CCSCustomHudLayout {
+            public const nint m_strLayout = 0x4A8; // CUtlSymbolLarge
+            public const nint m_vecPlayerLayoutStates = 0x4B0; // CUtlVectorEmbeddedNetworkVar<CCSCustomHudLayoutState>
+            public const nint m_globalLayoutState = 0x518; // CCSCustomHudLayoutState
+            public const nint m_vecPanelIds = 0x6B0; // CNetworkUtlVectorBase<CUtlString>
+            public const nint m_vecClassNames = 0x6C8; // CNetworkUtlVectorBase<CUtlString>
+            public const nint m_vecDialogVariableNames = 0x6E0; // CNetworkUtlVectorBase<CUtlString>
         }
         // Parent: None
         // Field count: 3
@@ -7013,6 +7018,10 @@ namespace CS2Dumper.Schemas {
             public const nint m_attachedObject = 0x4C0; // CHandle<CBaseEntity>
             public const nint m_wasRestored = 0x4C4; // bool
             public const nint m_integrator = 0x4C8; // CConstantForceController
+        }
+        // Parent: None
+        // Field count: 0
+        public static class CCSCustomHudLayout_API {
         }
         // Parent: None
         // Field count: 6
@@ -10633,6 +10642,14 @@ namespace CS2Dumper.Schemas {
         public static class CScriptTriggerHurt {
             public const nint m_vExtent = 0x970; // Vector
         }
+        // Parent: None
+        // Field count: 4
+        public static class CCSCustomHudLayoutState {
+            public const nint m_playerSlot = 0x30; // CPlayerSlot
+            public const nint m_bInputCaptureEnabled = 0x34; // bool
+            public const nint m_vecHasClasses = 0x38; // CNetworkUtlVectorBase<HUDPanelHasClass_t>
+            public const nint m_vecDialogVariableStrings = 0x98; // CNetworkUtlVectorBase<HUDPanelDialogVariableString_t>
+        }
         // Parent: CCSGO_TeamIntroCharacterPosition
         // Field count: 0
         public static class CCSGO_WingmanIntroCharacterPosition {
@@ -11006,6 +11023,13 @@ namespace CS2Dumper.Schemas {
             public const nint m_operatorNameChar = 0xB31; // char[256]
             public const nint m_VecNormPos = 0xC34; // Vector
             public const nint m_flNormCenterSize = 0xC40; // float32
+        }
+        // Parent: None
+        // Field count: 3
+        public static class CCSPlayerCamera {
+            public const nint m_hPawn = 0x4A8; // CHandle<CCSPlayerPawnBase>
+            public const nint m_bEnabled = 0x4AC; // bool
+            public const nint m_bIsControllingAngles = 0x4AD; // bool
         }
         // Parent: None
         // Field count: 1
@@ -12646,6 +12670,16 @@ namespace CS2Dumper.Schemas {
             public const nint m_flFarBlurryDistance = 0xC; // float32
         }
         // Parent: None
+        // Field count: 3
+        //
+        // Metadata:
+        // MGetKV3ClassDefaults
+        public static class HUDPanelHasClass_t {
+            public const nint m_nPanelIdIndex = 0x0; // uint16
+            public const nint m_nClassNameIndex = 0x2; // uint16
+            public const nint m_eClassStatus = 0x4; // EHudPanelClassStatus_t
+        }
+        // Parent: None
         // Field count: 1
         //
         // Metadata:
@@ -12665,6 +12699,14 @@ namespace CS2Dumper.Schemas {
         // Parent: None
         // Field count: 0
         public static class CVectorMovingAverage {
+        }
+        // Parent: None
+        // Field count: 4
+        public static class HUDPanelDialogVariableString_t {
+            public const nint m_nPanelIdIndex = 0x8; // uint16
+            public const nint m_nDialogVariableIndex = 0xA; // uint16
+            public const nint m_sValue = 0x10; // CUtlString
+            public const nint m_bIsSet = 0x18; // bool
         }
         // Parent: None
         // Field count: 4

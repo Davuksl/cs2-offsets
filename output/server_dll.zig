@@ -1,11 +1,11 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-11 07:49:01.880334200 UTC
+// 2026-09-07 09:53:10.175150600 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
         // Module: server.dll
-        // Class count: 990
-        // Enum count: 237
+        // Class count: 996
+        // Enum count: 238
         pub const server_dll = struct {
             // Alignment: 4
             // Member count: 4
@@ -2114,7 +2114,7 @@ pub const cs2_dumper = struct {
                 eAllButCannotClear = 0xFFFFFFFE
             };
             // Alignment: 4
-            // Member count: 78
+            // Member count: 79
             pub const ECstrike15UserMessages = enum(u32) {
                 CS_UM_VGUIMenu = 0x12D,
                 CS_UM_Geiger = 0x12E,
@@ -2193,7 +2193,8 @@ pub const cs2_dumper = struct {
                 CS_UM_DamagePrediction = 0x182,
                 CS_UM_RecurringMissionSchema = 0x183,
                 CS_UM_SendPlayerLoadout = 0x184,
-                CS_UM_WeaponMagDrop = 0x185
+                CS_UM_WeaponMagDrop = 0x185,
+                CS_UM_CustomHudClicked = 0x186
             };
             // Alignment: 4
             // Member count: 6
@@ -2324,6 +2325,13 @@ pub const cs2_dumper = struct {
                 MOVE_MOUNT_LOW = 0x1,
                 MOVE_MOUNT_HIGH = 0x2,
                 MOVE_MOUNT_MAXCOUNT = 0x3
+            };
+            // Alignment: 4
+            // Member count: 3
+            pub const EHudPanelClassStatus_t = enum(u32) {
+                k_eHudPanelClassStatus_Undefined = 0xFFFFFFFF,
+                k_eHudPanelClassStatus_DoesNotHaveClass = 0x0,
+                k_eHudPanelClassStatus_HasClass = 0x1
             };
             // Alignment: 4
             // Member count: 4
@@ -2835,7 +2843,7 @@ pub const cs2_dumper = struct {
                 VR_HAND_HAPTIC_PULSE_STRONG = 0x2
             };
             // Alignment: 4
-            // Member count: 147
+            // Member count: 133
             pub const EGCItemMsg = enum(u32) {
                 k_EMsgGCBase = 0x3E8,
                 k_EMsgGCSetItemPosition = 0x3E9,
@@ -2922,20 +2930,6 @@ pub const cs2_dumper = struct {
                 k_EMsgGCCasketItemAdd = 0x444,
                 k_EMsgGCCasketItemExtract = 0x445,
                 k_EMsgGCCasketItemLoadContents = 0x446,
-                k_EMsgGCTradingBase = 0x5DC,
-                k_EMsgGCTrading_InitiateTradeRequest = 0x5DD,
-                k_EMsgGCTrading_InitiateTradeResponse = 0x5DE,
-                k_EMsgGCTrading_StartSession = 0x5DF,
-                k_EMsgGCTrading_SetItem = 0x5E0,
-                k_EMsgGCTrading_RemoveItem = 0x5E1,
-                k_EMsgGCTrading_UpdateTradeInfo = 0x5E2,
-                k_EMsgGCTrading_SetReadiness = 0x5E3,
-                k_EMsgGCTrading_ReadinessResponse = 0x5E4,
-                k_EMsgGCTrading_SessionClosed = 0x5E5,
-                k_EMsgGCTrading_CancelSession = 0x5E6,
-                k_EMsgGCTrading_TradeChatMsg = 0x5E7,
-                k_EMsgGCTrading_ConfirmOffer = 0x5E8,
-                k_EMsgGCTrading_TradeTypingChatMsg = 0x5E9,
                 k_EMsgGCServerBrowser_FavoriteServer = 0x641,
                 k_EMsgGCServerBrowser_BlacklistServer = 0x642,
                 k_EMsgGCServerRentalsBase = 0x6A4,
@@ -5641,7 +5635,7 @@ pub const cs2_dumper = struct {
                 pub const m_WaitComplete: usize = 0xE0; // CPulse_ResumePoint
             };
             // Parent: CCSPlayerPawnBase
-            // Field count: 104
+            // Field count: 105
             pub const CCSPlayerPawn = struct {
                 pub const m_pBulletServices: usize = 0xD38; // CCSPlayer_BulletServices*
                 pub const m_pHostageServices: usize = 0xD40; // CCSPlayer_HostageServices*
@@ -5740,13 +5734,14 @@ pub const cs2_dumper = struct {
                 pub const m_bGrenadeParametersStashed: usize = 0x1324; // bool
                 pub const m_angStashedShootAngles: usize = 0x1328; // QAngle
                 pub const m_vecStashedGrenadeThrowPosition: usize = 0x1334; // VectorWS
-                pub const m_vecStashedVelocity: usize = 0x1340; // Vector
-                pub const m_bCommittingSuicideOnTeamChange: usize = 0x1358; // bool
-                pub const m_wasNotKilledNaturally: usize = 0x1359; // bool
-                pub const m_fImmuneToGunGameDamageTime: usize = 0x135C; // GameTime_t
-                pub const m_bGunGameImmunity: usize = 0x1360; // bool
-                pub const m_fMolotovDamageTime: usize = 0x1364; // float32
-                pub const m_angEyeAngles: usize = 0x1368; // QAngle
+                pub const m_vecStashedGrenadeThrowPawnCenter: usize = 0x1340; // VectorWS
+                pub const m_vecStashedVelocity: usize = 0x134C; // Vector
+                pub const m_bCommittingSuicideOnTeamChange: usize = 0x1360; // bool
+                pub const m_wasNotKilledNaturally: usize = 0x1361; // bool
+                pub const m_fImmuneToGunGameDamageTime: usize = 0x1364; // GameTime_t
+                pub const m_bGunGameImmunity: usize = 0x1368; // bool
+                pub const m_fMolotovDamageTime: usize = 0x136C; // float32
+                pub const m_angEyeAngles: usize = 0x1370; // QAngle
             };
             // Parent: CBaseEntity
             // Field count: 22
@@ -6345,6 +6340,16 @@ pub const cs2_dumper = struct {
                 pub const m_flRadius: usize = 0x9C0; // float32
                 pub const m_flNextSuckTime: usize = 0x9C4; // GameTime_t
                 pub const m_iMaxObjectsAttached: usize = 0x9C8; // int32
+            };
+            // Parent: CBaseEntity
+            // Field count: 6
+            pub const CCSCustomHudLayout = struct {
+                pub const m_strLayout: usize = 0x4A8; // CUtlSymbolLarge
+                pub const m_vecPlayerLayoutStates: usize = 0x4B0; // CUtlVectorEmbeddedNetworkVar<CCSCustomHudLayoutState>
+                pub const m_globalLayoutState: usize = 0x518; // CCSCustomHudLayoutState
+                pub const m_vecPanelIds: usize = 0x6B0; // CNetworkUtlVectorBase<CUtlString>
+                pub const m_vecClassNames: usize = 0x6C8; // CNetworkUtlVectorBase<CUtlString>
+                pub const m_vecDialogVariableNames: usize = 0x6E0; // CNetworkUtlVectorBase<CUtlString>
             };
             // Parent: None
             // Field count: 3
@@ -6980,6 +6985,10 @@ pub const cs2_dumper = struct {
                 pub const m_attachedObject: usize = 0x4C0; // CHandle<CBaseEntity>
                 pub const m_wasRestored: usize = 0x4C4; // bool
                 pub const m_integrator: usize = 0x4C8; // CConstantForceController
+            };
+            // Parent: None
+            // Field count: 0
+            pub const CCSCustomHudLayout_API = struct {
             };
             // Parent: None
             // Field count: 6
@@ -10600,6 +10609,14 @@ pub const cs2_dumper = struct {
             pub const CScriptTriggerHurt = struct {
                 pub const m_vExtent: usize = 0x970; // Vector
             };
+            // Parent: None
+            // Field count: 4
+            pub const CCSCustomHudLayoutState = struct {
+                pub const m_playerSlot: usize = 0x30; // CPlayerSlot
+                pub const m_bInputCaptureEnabled: usize = 0x34; // bool
+                pub const m_vecHasClasses: usize = 0x38; // CNetworkUtlVectorBase<HUDPanelHasClass_t>
+                pub const m_vecDialogVariableStrings: usize = 0x98; // CNetworkUtlVectorBase<HUDPanelDialogVariableString_t>
+            };
             // Parent: CCSGO_TeamIntroCharacterPosition
             // Field count: 0
             pub const CCSGO_WingmanIntroCharacterPosition = struct {
@@ -10973,6 +10990,13 @@ pub const cs2_dumper = struct {
                 pub const m_operatorNameChar: usize = 0xB31; // char[256]
                 pub const m_VecNormPos: usize = 0xC34; // Vector
                 pub const m_flNormCenterSize: usize = 0xC40; // float32
+            };
+            // Parent: None
+            // Field count: 3
+            pub const CCSPlayerCamera = struct {
+                pub const m_hPawn: usize = 0x4A8; // CHandle<CCSPlayerPawnBase>
+                pub const m_bEnabled: usize = 0x4AC; // bool
+                pub const m_bIsControllingAngles: usize = 0x4AD; // bool
             };
             // Parent: None
             // Field count: 1
@@ -12613,6 +12637,16 @@ pub const cs2_dumper = struct {
                 pub const m_flFarBlurryDistance: usize = 0xC; // float32
             };
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            pub const HUDPanelHasClass_t = struct {
+                pub const m_nPanelIdIndex: usize = 0x0; // uint16
+                pub const m_nClassNameIndex: usize = 0x2; // uint16
+                pub const m_eClassStatus: usize = 0x4; // EHudPanelClassStatus_t
+            };
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -12632,6 +12666,14 @@ pub const cs2_dumper = struct {
             // Parent: None
             // Field count: 0
             pub const CVectorMovingAverage = struct {
+            };
+            // Parent: None
+            // Field count: 4
+            pub const HUDPanelDialogVariableString_t = struct {
+                pub const m_nPanelIdIndex: usize = 0x8; // uint16
+                pub const m_nDialogVariableIndex: usize = 0xA; // uint16
+                pub const m_sValue: usize = 0x10; // CUtlString
+                pub const m_bIsSet: usize = 0x18; // bool
             };
             // Parent: None
             // Field count: 4

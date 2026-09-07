@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-11 07:49:01.880334200 UTC
+// 2026-09-07 09:53:10.175150600 UTC
 
 #pragma once
 
@@ -9,8 +9,8 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: server.dll
-        // Class count: 990
-        // Enum count: 237
+        // Class count: 996
+        // Enum count: 238
         namespace server_dll {
             // Alignment: 4
             // Member count: 4
@@ -2143,7 +2143,7 @@ namespace cs2_dumper {
                 eAllButCannotClear = 0xFFFFFFFF
             };
             // Alignment: 4
-            // Member count: 78
+            // Member count: 79
             enum class ECstrike15UserMessages : uint32_t {
                 CS_UM_VGUIMenu = 0x12D,
                 CS_UM_Geiger = 0x12E,
@@ -2222,7 +2222,8 @@ namespace cs2_dumper {
                 CS_UM_DamagePrediction = 0x182,
                 CS_UM_RecurringMissionSchema = 0x183,
                 CS_UM_SendPlayerLoadout = 0x184,
-                CS_UM_WeaponMagDrop = 0x185
+                CS_UM_WeaponMagDrop = 0x185,
+                CS_UM_CustomHudClicked = 0x186
             };
             // Alignment: 4
             // Member count: 6
@@ -2353,6 +2354,13 @@ namespace cs2_dumper {
                 MOVE_MOUNT_LOW = 0x1,
                 MOVE_MOUNT_HIGH = 0x2,
                 MOVE_MOUNT_MAXCOUNT = 0x3
+            };
+            // Alignment: 4
+            // Member count: 3
+            enum class EHudPanelClassStatus_t : uint32_t {
+                k_eHudPanelClassStatus_Undefined = 0xFFFFFFFF,
+                k_eHudPanelClassStatus_DoesNotHaveClass = 0x0,
+                k_eHudPanelClassStatus_HasClass = 0x1
             };
             // Alignment: 4
             // Member count: 4
@@ -2866,7 +2874,7 @@ namespace cs2_dumper {
                 VR_HAND_HAPTIC_PULSE_STRONG = 0x2
             };
             // Alignment: 4
-            // Member count: 147
+            // Member count: 133
             enum class EGCItemMsg : uint32_t {
                 k_EMsgGCBase = 0x3E8,
                 k_EMsgGCSetItemPosition = 0x3E9,
@@ -2953,20 +2961,6 @@ namespace cs2_dumper {
                 k_EMsgGCCasketItemAdd = 0x444,
                 k_EMsgGCCasketItemExtract = 0x445,
                 k_EMsgGCCasketItemLoadContents = 0x446,
-                k_EMsgGCTradingBase = 0x5DC,
-                k_EMsgGCTrading_InitiateTradeRequest = 0x5DD,
-                k_EMsgGCTrading_InitiateTradeResponse = 0x5DE,
-                k_EMsgGCTrading_StartSession = 0x5DF,
-                k_EMsgGCTrading_SetItem = 0x5E0,
-                k_EMsgGCTrading_RemoveItem = 0x5E1,
-                k_EMsgGCTrading_UpdateTradeInfo = 0x5E2,
-                k_EMsgGCTrading_SetReadiness = 0x5E3,
-                k_EMsgGCTrading_ReadinessResponse = 0x5E4,
-                k_EMsgGCTrading_SessionClosed = 0x5E5,
-                k_EMsgGCTrading_CancelSession = 0x5E6,
-                k_EMsgGCTrading_TradeChatMsg = 0x5E7,
-                k_EMsgGCTrading_ConfirmOffer = 0x5E8,
-                k_EMsgGCTrading_TradeTypingChatMsg = 0x5E9,
                 k_EMsgGCServerBrowser_FavoriteServer = 0x641,
                 k_EMsgGCServerBrowser_BlacklistServer = 0x642,
                 k_EMsgGCServerRentalsBase = 0x6A4,
@@ -5680,7 +5674,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_WaitComplete = 0xE0; // CPulse_ResumePoint
             }
             // Parent: CCSPlayerPawnBase
-            // Field count: 104
+            // Field count: 105
             namespace CCSPlayerPawn {
                 constexpr std::ptrdiff_t m_pBulletServices = 0xD38; // CCSPlayer_BulletServices*
                 constexpr std::ptrdiff_t m_pHostageServices = 0xD40; // CCSPlayer_HostageServices*
@@ -5779,13 +5773,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bGrenadeParametersStashed = 0x1324; // bool
                 constexpr std::ptrdiff_t m_angStashedShootAngles = 0x1328; // QAngle
                 constexpr std::ptrdiff_t m_vecStashedGrenadeThrowPosition = 0x1334; // VectorWS
-                constexpr std::ptrdiff_t m_vecStashedVelocity = 0x1340; // Vector
-                constexpr std::ptrdiff_t m_bCommittingSuicideOnTeamChange = 0x1358; // bool
-                constexpr std::ptrdiff_t m_wasNotKilledNaturally = 0x1359; // bool
-                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTime = 0x135C; // GameTime_t
-                constexpr std::ptrdiff_t m_bGunGameImmunity = 0x1360; // bool
-                constexpr std::ptrdiff_t m_fMolotovDamageTime = 0x1364; // float32
-                constexpr std::ptrdiff_t m_angEyeAngles = 0x1368; // QAngle
+                constexpr std::ptrdiff_t m_vecStashedGrenadeThrowPawnCenter = 0x1340; // VectorWS
+                constexpr std::ptrdiff_t m_vecStashedVelocity = 0x134C; // Vector
+                constexpr std::ptrdiff_t m_bCommittingSuicideOnTeamChange = 0x1360; // bool
+                constexpr std::ptrdiff_t m_wasNotKilledNaturally = 0x1361; // bool
+                constexpr std::ptrdiff_t m_fImmuneToGunGameDamageTime = 0x1364; // GameTime_t
+                constexpr std::ptrdiff_t m_bGunGameImmunity = 0x1368; // bool
+                constexpr std::ptrdiff_t m_fMolotovDamageTime = 0x136C; // float32
+                constexpr std::ptrdiff_t m_angEyeAngles = 0x1370; // QAngle
             }
             // Parent: CBaseEntity
             // Field count: 22
@@ -6384,6 +6379,16 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRadius = 0x9C0; // float32
                 constexpr std::ptrdiff_t m_flNextSuckTime = 0x9C4; // GameTime_t
                 constexpr std::ptrdiff_t m_iMaxObjectsAttached = 0x9C8; // int32
+            }
+            // Parent: CBaseEntity
+            // Field count: 6
+            namespace CCSCustomHudLayout {
+                constexpr std::ptrdiff_t m_strLayout = 0x4A8; // CUtlSymbolLarge
+                constexpr std::ptrdiff_t m_vecPlayerLayoutStates = 0x4B0; // CUtlVectorEmbeddedNetworkVar<CCSCustomHudLayoutState>
+                constexpr std::ptrdiff_t m_globalLayoutState = 0x518; // CCSCustomHudLayoutState
+                constexpr std::ptrdiff_t m_vecPanelIds = 0x6B0; // CNetworkUtlVectorBase<CUtlString>
+                constexpr std::ptrdiff_t m_vecClassNames = 0x6C8; // CNetworkUtlVectorBase<CUtlString>
+                constexpr std::ptrdiff_t m_vecDialogVariableNames = 0x6E0; // CNetworkUtlVectorBase<CUtlString>
             }
             // Parent: None
             // Field count: 3
@@ -7019,6 +7024,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_attachedObject = 0x4C0; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_wasRestored = 0x4C4; // bool
                 constexpr std::ptrdiff_t m_integrator = 0x4C8; // CConstantForceController
+            }
+            // Parent: None
+            // Field count: 0
+            namespace CCSCustomHudLayout_API {
             }
             // Parent: None
             // Field count: 6
@@ -10639,6 +10648,14 @@ namespace cs2_dumper {
             namespace CScriptTriggerHurt {
                 constexpr std::ptrdiff_t m_vExtent = 0x970; // Vector
             }
+            // Parent: None
+            // Field count: 4
+            namespace CCSCustomHudLayoutState {
+                constexpr std::ptrdiff_t m_playerSlot = 0x30; // CPlayerSlot
+                constexpr std::ptrdiff_t m_bInputCaptureEnabled = 0x34; // bool
+                constexpr std::ptrdiff_t m_vecHasClasses = 0x38; // CNetworkUtlVectorBase<HUDPanelHasClass_t>
+                constexpr std::ptrdiff_t m_vecDialogVariableStrings = 0x98; // CNetworkUtlVectorBase<HUDPanelDialogVariableString_t>
+            }
             // Parent: CCSGO_TeamIntroCharacterPosition
             // Field count: 0
             namespace CCSGO_WingmanIntroCharacterPosition {
@@ -11012,6 +11029,13 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_operatorNameChar = 0xB31; // char[256]
                 constexpr std::ptrdiff_t m_VecNormPos = 0xC34; // Vector
                 constexpr std::ptrdiff_t m_flNormCenterSize = 0xC40; // float32
+            }
+            // Parent: None
+            // Field count: 3
+            namespace CCSPlayerCamera {
+                constexpr std::ptrdiff_t m_hPawn = 0x4A8; // CHandle<CCSPlayerPawnBase>
+                constexpr std::ptrdiff_t m_bEnabled = 0x4AC; // bool
+                constexpr std::ptrdiff_t m_bIsControllingAngles = 0x4AD; // bool
             }
             // Parent: None
             // Field count: 1
@@ -12652,6 +12676,16 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFarBlurryDistance = 0xC; // float32
             }
             // Parent: None
+            // Field count: 3
+            //
+            // Metadata:
+            // MGetKV3ClassDefaults
+            namespace HUDPanelHasClass_t {
+                constexpr std::ptrdiff_t m_nPanelIdIndex = 0x0; // uint16
+                constexpr std::ptrdiff_t m_nClassNameIndex = 0x2; // uint16
+                constexpr std::ptrdiff_t m_eClassStatus = 0x4; // EHudPanelClassStatus_t
+            }
+            // Parent: None
             // Field count: 1
             //
             // Metadata:
@@ -12671,6 +12705,14 @@ namespace cs2_dumper {
             // Parent: None
             // Field count: 0
             namespace CVectorMovingAverage {
+            }
+            // Parent: None
+            // Field count: 4
+            namespace HUDPanelDialogVariableString_t {
+                constexpr std::ptrdiff_t m_nPanelIdIndex = 0x8; // uint16
+                constexpr std::ptrdiff_t m_nDialogVariableIndex = 0xA; // uint16
+                constexpr std::ptrdiff_t m_sValue = 0x10; // CUtlString
+                constexpr std::ptrdiff_t m_bIsSet = 0x18; // bool
             }
             // Parent: None
             // Field count: 4

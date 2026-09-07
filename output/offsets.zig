@@ -1,25 +1,25 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-11 07:49:01.880334200 UTC
+// 2026-09-07 09:53:10.175150600 UTC
 
 pub const cs2_dumper = struct {
     pub const offsets = struct {
         // Module: client.dll
         pub const client_dll = struct {
-            pub const dwCSGOInput: usize = 0x23B95F0;
-            pub const dwEntityList: usize = 0x254EE60;
-            pub const dwGameEntitySystem: usize = 0x254EE60;
+            pub const dwCSGOInput: usize = 0x23DBC70;
+            pub const dwEntityList: usize = 0x2571220;
+            pub const dwGameEntitySystem: usize = 0x2571220;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x2090;
-            pub const dwGameRules: usize = 0x23A39D8;
-            pub const dwGlobalVars: usize = 0x208FD60;
-            pub const dwGlowManager: usize = 0x23A0708;
-            pub const dwLocalPlayerController: usize = 0x237EBA0;
-            pub const dwLocalPlayerPawn: usize = 0x23A4238;
-            pub const dwPrediction: usize = 0x23A4140;
-            pub const dwSensitivity: usize = 0x23A1228;
-            pub const dwViewAngles: usize = 0x23B9C78;
-            pub const dwViewMatrix: usize = 0x23A9340;
-            pub const dwViewRender: usize = 0x23A9398;
-            pub const dwWeaponC4: usize = 0x231C9D0;
+            pub const dwGameRules: usize = 0x23C5D28;
+            pub const dwGlobalVars: usize = 0x20AF5F0;
+            pub const dwGlowManager: usize = 0x23C2A58;
+            pub const dwLocalPlayerController: usize = 0x23A0F30;
+            pub const dwLocalPlayerPawn: usize = 0x23C6268;
+            pub const dwPrediction: usize = 0x23C6170;
+            pub const dwSensitivity: usize = 0x23C3578;
+            pub const dwViewAngles: usize = 0x23DC2F8;
+            pub const dwViewMatrix: usize = 0x23CB830;
+            pub const dwViewRender: usize = 0x23CB898;
+            pub const dwWeaponC4: usize = 0x233EF10;
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {
